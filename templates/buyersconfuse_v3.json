@@ -1,409 +1,730 @@
-[
-  {
-    "version": "0.4",
-    "title": "buyersconfuse_v3",
-    "type": "section",
-    "page_settings": {},
-    "content": [
-
-      {
-        "id": "bcv3_header_sec",
-        "elType": "section",
-        "isInner": false,
-        "settings": {
-          "background_background": "classic",
-          "background_color": "#0A1628",
-          "stretch_section": "section-stretched",
-          "layout": "full_width",
-          "gap": "no",
-          "padding": { "unit": "px", "top": "80", "right": "40", "bottom": "0", "left": "40", "isLinked": false },
-          "content_width": { "unit": "px", "size": 1200 }
+{
+  "version": "0.4",
+  "title": "buyersconfuse_v3",
+  "type": "section",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "bcv3_header_sec",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0A1628",
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "80",
+          "right": "40",
+          "bottom": "0",
+          "left": "40",
+          "isLinked": false
         },
-        "elements": [
-          {
-            "id": "bcv3_header_col",
-            "elType": "column",
-            "settings": { "_column_size": 100 },
-            "elements": [
-              {
-                "id": "bcv3_overline",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "The Real Problem",
-                  "header_size": "h6",
-                  "align": "left",
-                  "title_color": "#C9A84C",
-                  "typography_typography": "custom",
-                  "typography_font_family": "Montserrat",
-                  "typography_font_weight": "700",
-                  "typography_font_size": { "unit": "px", "size": 10 },
-                  "typography_letter_spacing": { "unit": "px", "size": 3 },
-                  "typography_text_transform": "uppercase",
-                  "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
-                },
-                "elements": []
-              },
-              {
-                "id": "bcv3_heading",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "When your buyers are confused, they say no.",
-                  "header_size": "h2",
-                  "align": "left",
-                  "title_color": "#ffffff",
-                  "typography_typography": "custom",
-                  "typography_font_family": "Montserrat",
-                  "typography_font_weight": "800",
-                  "typography_font_size": { "unit": "vw", "size": 3.2 },
-                  "typography_line_height": { "unit": "em", "size": 1.15 },
-                  "typography_letter_spacing": { "unit": "px", "size": -0.5 },
-                  "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
-                },
-                "elements": []
-              },
-              {
-                "id": "bcv3_subtitle",
-                "elType": "widget",
-                "widgetType": "text-editor",
-                "settings": {
-                  "editor": "<p>If these sound familiar, you need to fix it now.</p>",
-                  "text_color": "rgba(255,255,255,0.62)",
-                  "typography_typography": "custom",
-                  "typography_font_family": "DM Sans",
-                  "typography_font_size": { "unit": "px", "size": 16 },
-                  "typography_line_height": { "unit": "em", "size": 1.6 },
-                  "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false }
-                },
-                "elements": []
-              }
-            ]
-          }
-        ]
+        "content_width": {
+          "unit": "px",
+          "size": 1200
+        }
       },
-
-      {
-        "id": "bcv3_row1_sec",
-        "elType": "section",
-        "isInner": false,
-        "settings": {
-          "background_background": "classic",
-          "background_color": "#0A1628",
-          "stretch_section": "section-stretched",
-          "layout": "full_width",
-          "gap": "custom",
-          "gap_columns_custom": { "unit": "px", "size": 20 },
-          "padding": { "unit": "px", "top": "0", "right": "40", "bottom": "10", "left": "40", "isLinked": false },
-          "content_width": { "unit": "px", "size": 1200 }
-        },
-        "elements": [
-          {
-            "id": "bcv3_card1_col",
-            "elType": "column",
-            "settings": {
-              "_column_size": 50,
-              "background_background": "classic",
-              "background_color": "#0F1D35",
-              "border_border": "solid",
-              "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
-              "border_color": "rgba(255,255,255,0.08)",
-              "border_radius": { "unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true },
-              "box_shadow_box_shadow_type": "yes",
-              "box_shadow_box_shadow": { "horizontal": 0, "vertical": 10, "blur": 36, "spread": 0, "color": "rgba(0,0,0,0.5)" },
-              "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false }
-            },
-            "elements": [
-              {
-                "id": "bcv3_c1_icon",
-                "elType": "widget",
-                "widgetType": "text-editor",
-                "settings": {
-                  "editor": "<p>🔇</p>",
-                  "typography_typography": "custom",
-                  "typography_font_size": { "unit": "px", "size": 34 },
-                  "typography_line_height": { "unit": "em", "size": 1 },
-                  "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
-                },
-                "elements": []
-              },
-              {
-                "id": "bcv3_c1_title",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Deals stall after the demo",
-                  "header_size": "h3",
-                  "align": "left",
-                  "title_color": "#ffffff",
-                  "typography_typography": "custom",
-                  "typography_font_family": "Montserrat",
-                  "typography_font_weight": "700",
-                  "typography_font_size": { "unit": "px", "size": 17 },
-                  "typography_line_height": { "unit": "em", "size": 1.3 },
-                  "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
-                },
-                "elements": []
-              },
-              {
-                "id": "bcv3_c1_body",
-                "elType": "widget",
-                "widgetType": "text-editor",
-                "settings": {
-                  "editor": "<p>They were interested. Then they went quiet. It wasn't the product. It was the story that didn't stick.</p>",
-                  "text_color": "rgba(255,255,255,0.58)",
-                  "typography_typography": "custom",
-                  "typography_font_family": "DM Sans",
-                  "typography_font_size": { "unit": "px", "size": 14 },
-                  "typography_line_height": { "unit": "em", "size": 1.65 }
-                },
-                "elements": []
-              }
-            ]
+      "elements": [
+        {
+          "id": "bcv3_header_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
           },
-          {
-            "id": "bcv3_card2_col",
-            "elType": "column",
-            "settings": {
-              "_column_size": 50,
-              "background_background": "classic",
-              "background_color": "#0F1D35",
-              "border_border": "solid",
-              "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
-              "border_color": "rgba(255,255,255,0.08)",
-              "border_radius": { "unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true },
-              "box_shadow_box_shadow_type": "yes",
-              "box_shadow_box_shadow": { "horizontal": 0, "vertical": 10, "blur": 36, "spread": 0, "color": "rgba(0,0,0,0.5)" },
-              "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false }
+          "elements": [
+            {
+              "id": "bcv3_overline",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "The Real Problem",
+                "header_size": "h6",
+                "align": "left",
+                "title_color": "#C9A84C",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 3
+                },
+                "typography_text_transform": "uppercase",
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
             },
-            "elements": [
-              {
-                "id": "bcv3_c2_icon",
-                "elType": "widget",
-                "widgetType": "text-editor",
-                "settings": {
-                  "editor": "<p>💸</p>",
-                  "typography_typography": "custom",
-                  "typography_font_size": { "unit": "px", "size": 34 },
-                  "typography_line_height": { "unit": "em", "size": 1 },
-                  "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+            {
+              "id": "bcv3_heading",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "When your buyers are confused, they say no.",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "800",
+                "typography_font_size": {
+                  "unit": "vw",
+                  "size": 3.2
                 },
-                "elements": []
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": -0.5
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
               },
-              {
-                "id": "bcv3_c2_title",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Price becomes the conversation",
-                  "header_size": "h3",
-                  "align": "left",
-                  "title_color": "#ffffff",
-                  "typography_typography": "custom",
-                  "typography_font_family": "Montserrat",
-                  "typography_font_weight": "700",
-                  "typography_font_size": { "unit": "px", "size": 17 },
-                  "typography_line_height": { "unit": "em", "size": 1.3 },
-                  "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              "elements": []
+            },
+            {
+              "id": "bcv3_subtitle",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>If these sound familiar, you need to fix it now.</p>",
+                "text_color": "rgba(255,255,255,0.62)",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
                 },
-                "elements": []
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.6
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "40",
+                  "left": "0",
+                  "isLinked": false
+                }
               },
-              {
-                "id": "bcv3_c2_body",
-                "elType": "widget",
-                "widgetType": "text-editor",
-                "settings": {
-                  "editor": "<p>When buyers can't see a clear difference, they compare on the one thing they can quantify: cost.</p>",
-                  "text_color": "rgba(255,255,255,0.58)",
-                  "typography_typography": "custom",
-                  "typography_font_family": "DM Sans",
-                  "typography_font_size": { "unit": "px", "size": 14 },
-                  "typography_line_height": { "unit": "em", "size": 1.65 }
-                },
-                "elements": []
-              }
-            ]
-          }
-        ]
-      },
-
-      {
-        "id": "bcv3_row2_sec",
-        "elType": "section",
-        "isInner": false,
-        "settings": {
-          "background_background": "classic",
-          "background_color": "#0A1628",
-          "stretch_section": "section-stretched",
-          "layout": "full_width",
-          "gap": "custom",
-          "gap_columns_custom": { "unit": "px", "size": 20 },
-          "padding": { "unit": "px", "top": "10", "right": "40", "bottom": "64", "left": "40", "isLinked": false },
-          "content_width": { "unit": "px", "size": 1200 }
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcv3_row1_sec",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0A1628",
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "gap": "custom",
+        "gap_columns_custom": {
+          "unit": "px",
+          "size": 20
         },
-        "elements": [
-          {
-            "id": "bcv3_card3_col",
-            "elType": "column",
-            "settings": {
-              "_column_size": 50,
-              "background_background": "classic",
-              "background_color": "#0F1D35",
-              "border_border": "solid",
-              "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
-              "border_color": "rgba(255,255,255,0.08)",
-              "border_radius": { "unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true },
-              "box_shadow_box_shadow_type": "yes",
-              "box_shadow_box_shadow": { "horizontal": 0, "vertical": 10, "blur": 36, "spread": 0, "color": "rgba(0,0,0,0.5)" },
-              "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false }
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "40",
+          "bottom": "10",
+          "left": "40",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1200
+        }
+      },
+      "elements": [
+        {
+          "id": "bcv3_card1_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "background_background": "classic",
+            "background_color": "#0F1D35",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
             },
-            "elements": [
-              {
-                "id": "bcv3_c3_icon",
-                "elType": "widget",
-                "widgetType": "text-editor",
-                "settings": {
-                  "editor": "<p>🎯</p>",
-                  "typography_typography": "custom",
-                  "typography_font_size": { "unit": "px", "size": 34 },
-                  "typography_line_height": { "unit": "em", "size": 1 },
-                  "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
-                },
-                "elements": []
-              },
-              {
-                "id": "bcv3_c3_title",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "Your team can't tell the same story twice",
-                  "header_size": "h3",
-                  "align": "left",
-                  "title_color": "#ffffff",
-                  "typography_typography": "custom",
-                  "typography_font_family": "Montserrat",
-                  "typography_font_weight": "700",
-                  "typography_font_size": { "unit": "px", "size": 17 },
-                  "typography_line_height": { "unit": "em", "size": 1.3 },
-                  "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
-                },
-                "elements": []
-              },
-              {
-                "id": "bcv3_c3_body",
-                "elType": "widget",
-                "widgetType": "text-editor",
-                "settings": {
-                  "editor": "<p>Every rep explains it differently. Every deck says something slightly different. Buyers feel it.</p>",
-                  "text_color": "rgba(255,255,255,0.58)",
-                  "typography_typography": "custom",
-                  "typography_font_family": "DM Sans",
-                  "typography_font_size": { "unit": "px", "size": 14 },
-                  "typography_line_height": { "unit": "em", "size": 1.65 }
-                },
-                "elements": []
-              }
-            ]
+            "border_color": "rgba(255,255,255,0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 10,
+              "blur": 36,
+              "spread": 0,
+              "color": "rgba(0,0,0,0.5)"
+            },
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "24",
+              "bottom": "28",
+              "left": "24",
+              "isLinked": false
+            }
           },
-          {
-            "id": "bcv3_card4_col",
-            "elType": "column",
-            "settings": {
-              "_column_size": 50,
-              "background_background": "classic",
-              "background_color": "#0F1D35",
-              "border_border": "solid",
-              "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
-              "border_color": "rgba(255,255,255,0.08)",
-              "border_radius": { "unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true },
-              "box_shadow_box_shadow_type": "yes",
-              "box_shadow_box_shadow": { "horizontal": 0, "vertical": 10, "blur": 36, "spread": 0, "color": "rgba(0,0,0,0.5)" },
-              "padding": { "unit": "px", "top": "28", "right": "24", "bottom": "28", "left": "24", "isLinked": false }
+          "elements": [
+            {
+              "id": "bcv3_c1_icon",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>\ud83d\udd07</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
             },
-            "elements": [
-              {
-                "id": "bcv3_c4_icon",
-                "elType": "widget",
-                "widgetType": "text-editor",
-                "settings": {
-                  "editor": "<p>🤖</p>",
-                  "typography_typography": "custom",
-                  "typography_font_size": { "unit": "px", "size": 34 },
-                  "typography_line_height": { "unit": "em", "size": 1 },
-                  "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false }
+            {
+              "id": "bcv3_c1_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Deals stall after the demo",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
                 },
-                "elements": []
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.3
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
               },
-              {
-                "id": "bcv3_c4_title",
-                "elType": "widget",
-                "widgetType": "heading",
-                "settings": {
-                  "title": "AI and automation aren't moving the number",
-                  "header_size": "h3",
-                  "align": "left",
-                  "title_color": "#ffffff",
-                  "typography_typography": "custom",
-                  "typography_font_family": "Montserrat",
-                  "typography_font_weight": "700",
-                  "typography_font_size": { "unit": "px", "size": 17 },
-                  "typography_line_height": { "unit": "em", "size": 1.3 },
-                  "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "12", "left": "0", "isLinked": false }
+              "elements": []
+            },
+            {
+              "id": "bcv3_c1_body",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>They were interested. Then they went quiet. It wasn't the product. It was the story that didn't stick.</p>",
+                "text_color": "rgba(255,255,255,0.58)",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
                 },
-                "elements": []
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65
+                }
               },
-              {
-                "id": "bcv3_c4_body",
-                "elType": "widget",
-                "widgetType": "text-editor",
-                "settings": {
-                  "editor": "<p>You bought the tools. You built the sequences. The problem was never the machine. It was the message.</p>",
-                  "text_color": "rgba(255,255,255,0.58)",
-                  "typography_typography": "custom",
-                  "typography_font_family": "DM Sans",
-                  "typography_font_size": { "unit": "px", "size": 14 },
-                  "typography_line_height": { "unit": "em", "size": 1.65 }
-                },
-                "elements": []
-              }
-            ]
-          }
-        ]
-      },
-
-      {
-        "id": "bcv3_hm_sec",
-        "elType": "section",
-        "isInner": false,
-        "settings": {
-          "background_background": "classic",
-          "background_color": "#0A1628",
-          "stretch_section": "section-stretched",
-          "layout": "full_width",
-          "gap": "no",
-          "padding": { "unit": "px", "top": "0", "right": "40", "bottom": "80", "left": "40", "isLinked": false },
-          "content_width": { "unit": "px", "size": 1200 }
+              "elements": []
+            }
+          ]
         },
-        "elements": [
-          {
-            "id": "bcv3_hm_col",
-            "elType": "column",
-            "settings": { "_column_size": 100 },
-            "elements": [
-              {
-                "id": "bcv3_hm_widget",
-                "elType": "widget",
-                "widgetType": "html",
-                "settings": {
-                  "html": "<style>\n.bcv3hm *,.bcv3hm *::before,.bcv3hm *::after{box-sizing:border-box;margin:0;padding:0}\n.bcv3hm{\n  background:rgba(255,255,255,0.03);\n  border:1px solid rgba(255,255,255,0.08);\n  border-radius:20px;\n  padding:40px;\n  box-shadow:0 8px 32px rgba(0,0,0,0.45);\n}\n.bcv3hm-title{\n  font-family:'Montserrat',sans-serif;\n  font-weight:800;\n  font-size:clamp(22px,2.8vw,36px);\n  color:#fff;\n  line-height:1.2;\n  margin-bottom:12px;\n}\n.bcv3hm-sub{\n  color:#C9A84C;\n  font-family:'DM Sans',sans-serif;\n  font-size:14px;\n  font-weight:600;\n  margin-bottom:20px;\n}\n.bcv3hm-table-wrap{overflow-x:auto;margin-bottom:20px;}\n.bcv3hm-table{\n  width:100%;\n  border-collapse:collapse;\n  font-family:'Montserrat',sans-serif;\n}\n.bcv3hm-table thead th{\n  text-align:center;\n  padding:10px 14px;\n  font-size:10px;\n  letter-spacing:1.5px;\n  text-transform:uppercase;\n  color:rgba(255,255,255,0.35);\n  border-bottom:1px solid rgba(255,255,255,0.08);\n}\n.bcv3hm-table thead th:first-child{text-align:left;}\n.bcv3hm-table tbody tr td{border-bottom:1px solid rgba(255,255,255,0.05);}\n.bcv3hm-row-label{\n  padding:10px 14px;\n  font-family:'Montserrat',sans-serif;\n  font-weight:700;\n  font-size:12px;\n  color:rgba(255,255,255,0.65);\n  white-space:nowrap;\n}\n.bcv3hm-cell{cursor:pointer;padding:5px;}\n.bcv3hm-cell-inner{\n  border-radius:7px;\n  padding:10px 14px;\n  text-align:center;\n  font-family:'Montserrat',sans-serif;\n  font-weight:800;\n  font-size:14px;\n  color:#fff;\n  transition:transform .15s,box-shadow .15s;\n}\n.bcv3hm-cell:hover .bcv3hm-cell-inner{transform:scale(1.08);box-shadow:0 4px 18px rgba(0,0,0,0.5);}\n.bcv3hm-cell.sel .bcv3hm-cell-inner{outline:2px solid #C9A84C;outline-offset:2px;}\n.bcv3hm-legend{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:20px;}\n.bcv3hm-legend-item{display:flex;align-items:center;gap:8px;font-size:12px;color:rgba(255,255,255,0.5);font-family:'DM Sans',sans-serif;}\n.bcv3hm-legend-swatch{width:12px;height:12px;border-radius:3px;}\n.bcv3hm-detail{\n  display:none;\n  background:rgba(255,255,255,0.04);\n  border:1px solid rgba(201,168,76,0.2);\n  border-radius:12px;\n  padding:20px;\n  margin-bottom:20px;\n}\n.bcv3hm-detail.open{display:block;}\n.bcv3hm-stat-row{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:16px;}\n.bcv3hm-stat-num{font-family:'Montserrat',sans-serif;font-weight:900;font-size:36px;color:#C9A84C;text-align:center;}\n.bcv3hm-stat-label{font-size:11px;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:1px;text-align:center;}\n.bcv3hm-detail-text{font-size:14px;color:rgba(255,255,255,0.7);line-height:1.6;margin-bottom:12px;}\n.bcv3hm-rec{background:rgba(201,168,76,0.1);border-left:3px solid #C9A84C;padding:12px 16px;font-size:13px;color:rgba(255,255,255,0.8);border-radius:0 8px 8px 0;}\n.bcv3hm-custom-row{display:flex;gap:12px;margin-top:8px;}\n.bcv3hm-input{flex:1;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:8px;padding:12px 16px;color:#fff;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;}\n.bcv3hm-btn{background:#C9A84C;color:#0A1628;border:none;padding:12px 24px;border-radius:8px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:background 0.2s;}\n.bcv3hm-btn:hover{background:#b8943a;}\n</style>\n\n<div class=\"bcv3hm\">\n  <p class=\"bcv3hm-title\">See How Confusion Hits Your Industry</p>\n  <p class=\"bcv3hm-sub\">Click any cell for detailed insights. Or type your industry below.</p>\n  <div class=\"bcv3hm-table-wrap\">\n    <table class=\"bcv3hm-table\" id=\"bcv3hm-table\">\n      <thead><tr>\n        <th></th>\n        <th>Story Overlap</th><th>Long Cycles</th><th>Price Pressure</th><th>Rep Inconsistency</th><th>Manual Outbound</th>\n      </tr></thead>\n      <tbody id=\"bcv3hm-tbody\"></tbody>\n    </table>\n  </div>\n  <div class=\"bcv3hm-legend\">\n    <div class=\"bcv3hm-legend-item\"><div class=\"bcv3hm-legend-swatch\" style=\"background:rgba(34,197,94,0.7)\"></div>&lt;50 (Low)</div>\n    <div class=\"bcv3hm-legend-item\"><div class=\"bcv3hm-legend-swatch\" style=\"background:rgba(201,168,76,0.75)\"></div>50&ndash;70 (Moderate)</div>\n    <div class=\"bcv3hm-legend-item\"><div class=\"bcv3hm-legend-swatch\" style=\"background:rgba(201,100,30,0.82)\"></div>70&ndash;85 (High)</div>\n    <div class=\"bcv3hm-legend-item\"><div class=\"bcv3hm-legend-swatch\" style=\"background:rgba(192,57,43,0.88)\"></div>85+ (Critical)</div>\n  </div>\n  <div id=\"bcv3hm-detail\" class=\"bcv3hm-detail\"></div>\n  <div class=\"bcv3hm-custom-row\">\n    <input type=\"text\" class=\"bcv3hm-input\" id=\"bcv3hm-input\" placeholder=\"Type your industry (e.g. Fintech, Healthcare IT)\">\n    <button class=\"bcv3hm-btn\" id=\"bcv3hm-btn\">Analyze</button>\n  </div>\n</div>\n\n<script>\n(function(){\n  var D={\n    industries:['SaaS','Manufacturing','Medtech','Telecom','Prof. Services'],\n    pains:['Story Overlap','Long Cycles','Price Pressure','Rep Inconsistency','Manual Outbound'],\n    scores:[[88,72,65,81,77],[74,68,82,63,88],[71,85,74,69,72],[79,63,71,75,84],[85,57,68,88,65]],\n    details:{\n      '0-0':{stats:['88%','Story Overlap Rate'],text:'Most SaaS companies use nearly identical hero messages. Buyers see 4-6 pitches per week that sound the same.',rec:'Start with EPIC Framework: lead with the buyer problem, not the feature set.'},\n      '1-2':{stats:['82%','Price Sensitivity'],text:'Manufacturing buyers default to price comparisons when value is not clear.',rec:'A brand film showing outcomes reduces price objections by 40% on average.'},\n      '2-1':{stats:['85%','Cycle Length'],text:'Medtech sales cycles average 9-18 months. Every month without a differentiated story is a month where a competitor is building preference.',rec:'Story-first enablement reduces average cycle by 2.4 months.'},\n      '3-4':{stats:['84%','Manual Outbound'],text:'Telecom sales teams spend 60% of their time on manual outreach.',rec:'AI-automated outbound built on a clear story generates 3x response rates.'},\n      '4-3':{stats:['88%','Rep Inconsistency'],text:'Professional services firms have a major story consistency problem.',rec:'A unified EPIC story guide closes the consistency gap in 30 days or less.'}\n    }\n  };\n  function gc(s){return s<50?'rgba(34,197,94,0.7)':s<70?'rgba(201,168,76,0.75)':s<85?'rgba(201,100,30,0.82)':'rgba(192,57,43,0.88)';}\n  var sel=null;\n  function show(r,c,ind,pain,score,cell){\n    if(sel)sel.classList.remove('sel');\n    sel=cell;cell.classList.add('sel');\n    var key=r+'-'+c,d=D.details[key]||{stats:[score+'%','Severity Score'],text:ind+' companies face significant '+pain.toLowerCase()+' challenges.',rec:'A Story Differentiation Index audit will show exactly where the message is breaking.'};\n    var p=document.getElementById('bcv3hm-detail');\n    p.className='bcv3hm-detail open';\n    p.innerHTML='<div class=\"bcv3hm-stat-row\"><div><div class=\"bcv3hm-stat-num\">'+d.stats[0]+'</div><div class=\"bcv3hm-stat-label\">'+d.stats[1]+'</div></div><div><div class=\"bcv3hm-stat-num\">'+ind+'</div><div class=\"bcv3hm-stat-label\">&times; '+pain+'</div></div></div><p class=\"bcv3hm-detail-text\">'+d.text+'</p><div class=\"bcv3hm-rec\">Recommended: '+d.rec+'</div>';\n  }\n  function build(){\n    var tb=document.getElementById('bcv3hm-tbody');if(!tb)return;\n    D.industries.forEach(function(ind,r){\n      var tr=document.createElement('tr');\n      var td0=document.createElement('td');td0.className='bcv3hm-row-label';td0.textContent=ind;tr.appendChild(td0);\n      D.pains.forEach(function(pain,c){\n        var s=D.scores[r][c],td=document.createElement('td');\n        td.className='bcv3hm-cell';\n        td.innerHTML='<div class=\"bcv3hm-cell-inner\" style=\"background:'+gc(s)+'\">'+s+'</div>';\n        td.onclick=function(){show(r,c,ind,pain,s,td);};\n        tr.appendChild(td);\n      });\n      tb.appendChild(tr);\n    });\n  }\n  var btn=document.getElementById('bcv3hm-btn');\n  if(btn)btn.addEventListener('click',function(){\n    var val=document.getElementById('bcv3hm-input').value.trim();if(!val)return;\n    var tb=document.getElementById('bcv3hm-tbody'),ex=document.getElementById('bcv3hm-custom-row-el');if(ex)ex.remove();\n    var sc=D.pains.map(function(){return Math.floor(Math.random()*38+46);});\n    var tr=document.createElement('tr');tr.id='bcv3hm-custom-row-el';\n    var td0=document.createElement('td');td0.className='bcv3hm-row-label';td0.textContent=val+'*';tr.appendChild(td0);\n    sc.forEach(function(s,c){\n      var td=document.createElement('td');td.className='bcv3hm-cell';\n      td.innerHTML='<div class=\"bcv3hm-cell-inner\" style=\"background:'+gc(s)+'\">'+s+'</div>';\n      td.onclick=function(){show('c',c,val,D.pains[c],s,td);};\n      tr.appendChild(td);\n    });\n    tb.appendChild(tr);\n  });\n  build();\n})();\n</script>"
+        {
+          "id": "bcv3_card2_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "background_background": "classic",
+            "background_color": "#0F1D35",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255,255,255,0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 10,
+              "blur": 36,
+              "spread": 0,
+              "color": "rgba(0,0,0,0.5)"
+            },
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "24",
+              "bottom": "28",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "bcv3_c2_icon",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>\ud83d\udcb8</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
                 },
-                "elements": []
-              }
-            ]
-          }
-        ]
-      }
-
-    ]
-  }
-]
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bcv3_c2_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Price becomes the conversation",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.3
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bcv3_c2_body",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>When buyers can't see a clear difference, they compare on the one thing they can quantify: cost.</p>",
+                "text_color": "rgba(255,255,255,0.58)",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcv3_row2_sec",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0A1628",
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "gap": "custom",
+        "gap_columns_custom": {
+          "unit": "px",
+          "size": 20
+        },
+        "padding": {
+          "unit": "px",
+          "top": "10",
+          "right": "40",
+          "bottom": "64",
+          "left": "40",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1200
+        }
+      },
+      "elements": [
+        {
+          "id": "bcv3_card3_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "background_background": "classic",
+            "background_color": "#0F1D35",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255,255,255,0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 10,
+              "blur": 36,
+              "spread": 0,
+              "color": "rgba(0,0,0,0.5)"
+            },
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "24",
+              "bottom": "28",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "bcv3_c3_icon",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>\ud83c\udfaf</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bcv3_c3_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Your team can't tell the same story twice",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.3
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bcv3_c3_body",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Every rep explains it differently. Every deck says something slightly different. Buyers feel it.</p>",
+                "text_color": "rgba(255,255,255,0.58)",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65
+                }
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "bcv3_card4_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 50,
+            "background_background": "classic",
+            "background_color": "#0F1D35",
+            "border_border": "solid",
+            "border_width": {
+              "unit": "px",
+              "top": "1",
+              "right": "1",
+              "bottom": "1",
+              "left": "1",
+              "isLinked": true
+            },
+            "border_color": "rgba(255,255,255,0.08)",
+            "border_radius": {
+              "unit": "px",
+              "top": "16",
+              "right": "16",
+              "bottom": "16",
+              "left": "16",
+              "isLinked": true
+            },
+            "box_shadow_box_shadow_type": "yes",
+            "box_shadow_box_shadow": {
+              "horizontal": 0,
+              "vertical": 10,
+              "blur": 36,
+              "spread": 0,
+              "color": "rgba(0,0,0,0.5)"
+            },
+            "padding": {
+              "unit": "px",
+              "top": "28",
+              "right": "24",
+              "bottom": "28",
+              "left": "24",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "bcv3_c4_icon",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>\ud83e\udd16</p>",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 34
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bcv3_c4_title",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "AI and automation aren't moving the number",
+                "header_size": "h3",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.3
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "bcv3_c4_body",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>You bought the tools. You built the sequences. The problem was never the machine. It was the message.</p>",
+                "text_color": "rgba(255,255,255,0.58)",
+                "typography_typography": "custom",
+                "typography_font_family": "DM Sans",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 14
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65
+                }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bcv3_hm_sec",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0A1628",
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "40",
+          "bottom": "80",
+          "left": "40",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1200
+        }
+      },
+      "elements": [
+        {
+          "id": "bcv3_hm_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "bcv3_hm_widget",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<style>\n.bcv3hm *,.bcv3hm *::before,.bcv3hm *::after{box-sizing:border-box;margin:0;padding:0}\n.bcv3hm{\n  background:rgba(255,255,255,0.03);\n  border:1px solid rgba(255,255,255,0.08);\n  border-radius:20px;\n  padding:40px;\n  box-shadow:0 8px 32px rgba(0,0,0,0.45);\n}\n.bcv3hm-title{\n  font-family:'Montserrat',sans-serif;\n  font-weight:800;\n  font-size:clamp(22px,2.8vw,36px);\n  color:#fff;\n  line-height:1.2;\n  margin-bottom:12px;\n}\n.bcv3hm-sub{\n  color:#C9A84C;\n  font-family:'DM Sans',sans-serif;\n  font-size:14px;\n  font-weight:600;\n  margin-bottom:20px;\n}\n.bcv3hm-table-wrap{overflow-x:auto;margin-bottom:20px;}\n.bcv3hm-table{\n  width:100%;\n  border-collapse:collapse;\n  font-family:'Montserrat',sans-serif;\n}\n.bcv3hm-table thead th{\n  text-align:center;\n  padding:10px 14px;\n  font-size:10px;\n  letter-spacing:1.5px;\n  text-transform:uppercase;\n  color:rgba(255,255,255,0.35);\n  border-bottom:1px solid rgba(255,255,255,0.08);\n}\n.bcv3hm-table thead th:first-child{text-align:left;}\n.bcv3hm-table tbody tr td{border-bottom:1px solid rgba(255,255,255,0.05);}\n.bcv3hm-row-label{\n  padding:10px 14px;\n  font-family:'Montserrat',sans-serif;\n  font-weight:700;\n  font-size:12px;\n  color:rgba(255,255,255,0.65);\n  white-space:nowrap;\n}\n.bcv3hm-cell{cursor:pointer;padding:5px;}\n.bcv3hm-cell-inner{\n  border-radius:7px;\n  padding:10px 14px;\n  text-align:center;\n  font-family:'Montserrat',sans-serif;\n  font-weight:800;\n  font-size:14px;\n  color:#fff;\n  transition:transform .15s,box-shadow .15s;\n}\n.bcv3hm-cell:hover .bcv3hm-cell-inner{transform:scale(1.08);box-shadow:0 4px 18px rgba(0,0,0,0.5);}\n.bcv3hm-cell.sel .bcv3hm-cell-inner{outline:2px solid #C9A84C;outline-offset:2px;}\n.bcv3hm-legend{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:20px;}\n.bcv3hm-legend-item{display:flex;align-items:center;gap:8px;font-size:12px;color:rgba(255,255,255,0.5);font-family:'DM Sans',sans-serif;}\n.bcv3hm-legend-swatch{width:12px;height:12px;border-radius:3px;}\n.bcv3hm-detail{\n  display:none;\n  background:rgba(255,255,255,0.04);\n  border:1px solid rgba(201,168,76,0.2);\n  border-radius:12px;\n  padding:20px;\n  margin-bottom:20px;\n}\n.bcv3hm-detail.open{display:block;}\n.bcv3hm-stat-row{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:16px;}\n.bcv3hm-stat-num{font-family:'Montserrat',sans-serif;font-weight:900;font-size:36px;color:#C9A84C;text-align:center;}\n.bcv3hm-stat-label{font-size:11px;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:1px;text-align:center;}\n.bcv3hm-detail-text{font-size:14px;color:rgba(255,255,255,0.7);line-height:1.6;margin-bottom:12px;}\n.bcv3hm-rec{background:rgba(201,168,76,0.1);border-left:3px solid #C9A84C;padding:12px 16px;font-size:13px;color:rgba(255,255,255,0.8);border-radius:0 8px 8px 0;}\n.bcv3hm-custom-row{display:flex;gap:12px;margin-top:8px;}\n.bcv3hm-input{flex:1;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:8px;padding:12px 16px;color:#fff;font-family:'DM Sans',sans-serif;font-size:14px;outline:none;}\n.bcv3hm-btn{background:#C9A84C;color:#0A1628;border:none;padding:12px 24px;border-radius:8px;font-family:'Montserrat',sans-serif;font-weight:700;font-size:11px;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;transition:background 0.2s;}\n.bcv3hm-btn:hover{background:#b8943a;}\n</style>\n\n<div class=\"bcv3hm\">\n  <p class=\"bcv3hm-title\">See How Confusion Hits Your Industry</p>\n  <p class=\"bcv3hm-sub\">Click any cell for detailed insights. Or type your industry below.</p>\n  <div class=\"bcv3hm-table-wrap\">\n    <table class=\"bcv3hm-table\" id=\"bcv3hm-table\">\n      <thead><tr>\n        <th></th>\n        <th>Story Overlap</th><th>Long Cycles</th><th>Price Pressure</th><th>Rep Inconsistency</th><th>Manual Outbound</th>\n      </tr></thead>\n      <tbody id=\"bcv3hm-tbody\"></tbody>\n    </table>\n  </div>\n  <div class=\"bcv3hm-legend\">\n    <div class=\"bcv3hm-legend-item\"><div class=\"bcv3hm-legend-swatch\" style=\"background:rgba(34,197,94,0.7)\"></div>&lt;50 (Low)</div>\n    <div class=\"bcv3hm-legend-item\"><div class=\"bcv3hm-legend-swatch\" style=\"background:rgba(201,168,76,0.75)\"></div>50&ndash;70 (Moderate)</div>\n    <div class=\"bcv3hm-legend-item\"><div class=\"bcv3hm-legend-swatch\" style=\"background:rgba(201,100,30,0.82)\"></div>70&ndash;85 (High)</div>\n    <div class=\"bcv3hm-legend-item\"><div class=\"bcv3hm-legend-swatch\" style=\"background:rgba(192,57,43,0.88)\"></div>85+ (Critical)</div>\n  </div>\n  <div id=\"bcv3hm-detail\" class=\"bcv3hm-detail\"></div>\n  <div class=\"bcv3hm-custom-row\">\n    <input type=\"text\" class=\"bcv3hm-input\" id=\"bcv3hm-input\" placeholder=\"Type your industry (e.g. Fintech, Healthcare IT)\">\n    <button class=\"bcv3hm-btn\" id=\"bcv3hm-btn\">Analyze</button>\n  </div>\n</div>\n\n<script>\n(function(){\n  var D={\n    industries:['SaaS','Manufacturing','Medtech','Telecom','Prof. Services'],\n    pains:['Story Overlap','Long Cycles','Price Pressure','Rep Inconsistency','Manual Outbound'],\n    scores:[[88,72,65,81,77],[74,68,82,63,88],[71,85,74,69,72],[79,63,71,75,84],[85,57,68,88,65]],\n    details:{\n      '0-0':{stats:['88%','Story Overlap Rate'],text:'Most SaaS companies use nearly identical hero messages. Buyers see 4-6 pitches per week that sound the same.',rec:'Start with EPIC Framework: lead with the buyer problem, not the feature set.'},\n      '1-2':{stats:['82%','Price Sensitivity'],text:'Manufacturing buyers default to price comparisons when value is not clear.',rec:'A brand film showing outcomes reduces price objections by 40% on average.'},\n      '2-1':{stats:['85%','Cycle Length'],text:'Medtech sales cycles average 9-18 months. Every month without a differentiated story is a month where a competitor is building preference.',rec:'Story-first enablement reduces average cycle by 2.4 months.'},\n      '3-4':{stats:['84%','Manual Outbound'],text:'Telecom sales teams spend 60% of their time on manual outreach.',rec:'AI-automated outbound built on a clear story generates 3x response rates.'},\n      '4-3':{stats:['88%','Rep Inconsistency'],text:'Professional services firms have a major story consistency problem.',rec:'A unified EPIC story guide closes the consistency gap in 30 days or less.'}\n    }\n  };\n  function gc(s){return s<50?'rgba(34,197,94,0.7)':s<70?'rgba(201,168,76,0.75)':s<85?'rgba(201,100,30,0.82)':'rgba(192,57,43,0.88)';}\n  var sel=null;\n  function show(r,c,ind,pain,score,cell){\n    if(sel)sel.classList.remove('sel');\n    sel=cell;cell.classList.add('sel');\n    var key=r+'-'+c,d=D.details[key]||{stats:[score+'%','Severity Score'],text:ind+' companies face significant '+pain.toLowerCase()+' challenges.',rec:'A Story Differentiation Index audit will show exactly where the message is breaking.'};\n    var p=document.getElementById('bcv3hm-detail');\n    p.className='bcv3hm-detail open';\n    p.innerHTML='<div class=\"bcv3hm-stat-row\"><div><div class=\"bcv3hm-stat-num\">'+d.stats[0]+'</div><div class=\"bcv3hm-stat-label\">'+d.stats[1]+'</div></div><div><div class=\"bcv3hm-stat-num\">'+ind+'</div><div class=\"bcv3hm-stat-label\">&times; '+pain+'</div></div></div><p class=\"bcv3hm-detail-text\">'+d.text+'</p><div class=\"bcv3hm-rec\">Recommended: '+d.rec+'</div>';\n  }\n  function build(){\n    var tb=document.getElementById('bcv3hm-tbody');if(!tb)return;\n    D.industries.forEach(function(ind,r){\n      var tr=document.createElement('tr');\n      var td0=document.createElement('td');td0.className='bcv3hm-row-label';td0.textContent=ind;tr.appendChild(td0);\n      D.pains.forEach(function(pain,c){\n        var s=D.scores[r][c],td=document.createElement('td');\n        td.className='bcv3hm-cell';\n        td.innerHTML='<div class=\"bcv3hm-cell-inner\" style=\"background:'+gc(s)+'\">'+s+'</div>';\n        td.onclick=function(){show(r,c,ind,pain,s,td);};\n        tr.appendChild(td);\n      });\n      tb.appendChild(tr);\n    });\n  }\n  var btn=document.getElementById('bcv3hm-btn');\n  if(btn)btn.addEventListener('click',function(){\n    var val=document.getElementById('bcv3hm-input').value.trim();if(!val)return;\n    var tb=document.getElementById('bcv3hm-tbody'),ex=document.getElementById('bcv3hm-custom-row-el');if(ex)ex.remove();\n    var sc=D.pains.map(function(){return Math.floor(Math.random()*38+46);});\n    var tr=document.createElement('tr');tr.id='bcv3hm-custom-row-el';\n    var td0=document.createElement('td');td0.className='bcv3hm-row-label';td0.textContent=val+'*';tr.appendChild(td0);\n    sc.forEach(function(s,c){\n      var td=document.createElement('td');td.className='bcv3hm-cell';\n      td.innerHTML='<div class=\"bcv3hm-cell-inner\" style=\"background:'+gc(s)+'\">'+s+'</div>';\n      td.onclick=function(){show('c',c,val,D.pains[c],s,td);};\n      tr.appendChild(td);\n    });\n    tb.appendChild(tr);\n  });\n  build();\n})();\n</script>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
