@@ -23,7 +23,7 @@
         {
           "id": "ftr_col1",
           "elType": "column",
-          "settings": { "_column_size": 25 },
+          "settings": { "_column_size": 25, "padding": { "unit": "px", "top": "0", "right": "24", "bottom": "0", "left": "0", "isLinked": false } },
           "elements": [
             {
               "id": "ftr_c1_label",
@@ -45,11 +45,30 @@
               "elements": []
             },
             {
-              "id": "ftr_c1_links",
+              "id": "ftr_c1_list",
               "elType": "widget",
-              "widgetType": "html",
+              "widgetType": "icon-list",
               "settings": {
-                "html": "<style>.rmftr-links{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;}.rmftr-links a{font-family:'Montserrat',sans-serif;font-size:13px;font-weight:500;color:rgba(255,255,255,0.7);text-decoration:none;transition:color 0.2s;}.rmftr-links a:hover{color:#C9A84C;}</style><ul class=\"rmftr-links\"><li><a href=\"/\">Home</a></li><li><a href=\"/portfolio/\">Our Work</a></li><li><a href=\"/results/\">Results</a></li><li><a href=\"/about/\">About</a></li><li><a href=\"/book/\">Book</a></li><li><a href=\"/audit/\">Free Diagnosis</a></li></ul>"
+                "icon_list": [
+                  { "_id": "ql1", "text": "Home",           "link": { "url": "/",          "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "ql2", "text": "Our Work",       "link": { "url": "/portfolio/", "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "ql3", "text": "Results",        "link": { "url": "/results/",   "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "ql4", "text": "About",          "link": { "url": "/about/",     "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "ql5", "text": "Book",           "link": { "url": "/book/",      "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "ql6", "text": "Free Diagnosis", "link": { "url": "/audit/",     "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } }
+                ],
+                "layout": "traditional",
+                "space_between": { "unit": "px", "size": 10, "sizes": [] },
+                "icon_size": { "unit": "px", "size": 0, "sizes": [] },
+                "icon_self_align": "center",
+                "text_color": "rgba(255,255,255,0.68)",
+                "text_color_hover": "#C9A84C",
+                "text_indent": { "unit": "px", "size": 0, "sizes": [] },
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 13 },
+                "typography_font_weight": "500",
+                "typography_line_height": { "unit": "em", "size": 1.5 }
               },
               "elements": []
             }
@@ -59,7 +78,7 @@
         {
           "id": "ftr_col2",
           "elType": "column",
-          "settings": { "_column_size": 25 },
+          "settings": { "_column_size": 25, "padding": { "unit": "px", "top": "0", "right": "24", "bottom": "0", "left": "0", "isLinked": false } },
           "elements": [
             {
               "id": "ftr_c2_label",
@@ -81,11 +100,29 @@
               "elements": []
             },
             {
-              "id": "ftr_c2_links",
+              "id": "ftr_c2_list",
               "elType": "widget",
-              "widgetType": "html",
+              "widgetType": "icon-list",
               "settings": {
-                "html": "<ul class=\"rmftr-links\"><li><a href=\"/services/\">How We Work</a></li><li><a href=\"/train/\">Train</a></li><li><a href=\"/consult/\">Consult</a></li><li><a href=\"/deliver/\">Deliver</a></li><li><a href=\"/portfolio/\">Portfolio</a></li></ul>"
+                "icon_list": [
+                  { "_id": "sv1", "text": "How We Work", "link": { "url": "/services/",  "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "sv2", "text": "Train",       "link": { "url": "/train/",     "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "sv3", "text": "Consult",     "link": { "url": "/consult/",   "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "sv4", "text": "Deliver",     "link": { "url": "/deliver/",   "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "sv5", "text": "Portfolio",   "link": { "url": "/portfolio/", "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } }
+                ],
+                "layout": "traditional",
+                "space_between": { "unit": "px", "size": 10, "sizes": [] },
+                "icon_size": { "unit": "px", "size": 0, "sizes": [] },
+                "icon_self_align": "center",
+                "text_color": "rgba(255,255,255,0.68)",
+                "text_color_hover": "#C9A84C",
+                "text_indent": { "unit": "px", "size": 0, "sizes": [] },
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 13 },
+                "typography_font_weight": "500",
+                "typography_line_height": { "unit": "em", "size": 1.5 }
               },
               "elements": []
             }
@@ -95,7 +132,7 @@
         {
           "id": "ftr_col3",
           "elType": "column",
-          "settings": { "_column_size": 25 },
+          "settings": { "_column_size": 25, "padding": { "unit": "px", "top": "0", "right": "24", "bottom": "0", "left": "0", "isLinked": false } },
           "elements": [
             {
               "id": "ftr_c3_label",
@@ -117,11 +154,29 @@
               "elements": []
             },
             {
-              "id": "ftr_c3_links",
+              "id": "ftr_c3_list",
               "elType": "widget",
-              "widgetType": "html",
+              "widgetType": "icon-list",
               "settings": {
-                "html": "<ul class=\"rmftr-links\"><li><a href=\"https://ripmediagroup.com\" target=\"_blank\" rel=\"noopener\">RipMediaGroup.com</a></li><li><a href=\"https://linkedin.com/company/rip-media-group\" target=\"_blank\" rel=\"noopener\">LinkedIn</a></li><li><a href=\"https://scripttimer.ai\" target=\"_blank\" rel=\"noopener\">Script Timer AI</a></li><li><a href=\"https://membershipbenefits.club\" target=\"_blank\" rel=\"noopener\">MembershipBenefits.club</a></li><li><a href=\"/book/\">Book a Call</a></li></ul>"
+                "icon_list": [
+                  { "_id": "cn1", "text": "RipMediaGroup.com",      "link": { "url": "https://ripmediagroup.com",           "is_external": true, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "cn2", "text": "LinkedIn",               "link": { "url": "https://linkedin.com/company/rip-media-group", "is_external": true, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "cn3", "text": "Script Timer AI",        "link": { "url": "https://scripttimer.ai",              "is_external": true, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "cn4", "text": "MembershipBenefits.club","link": { "url": "https://membershipbenefits.club",      "is_external": true, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "cn5", "text": "Book a Call",            "link": { "url": "/book/",                              "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } }
+                ],
+                "layout": "traditional",
+                "space_between": { "unit": "px", "size": 10, "sizes": [] },
+                "icon_size": { "unit": "px", "size": 0, "sizes": [] },
+                "icon_self_align": "center",
+                "text_color": "rgba(255,255,255,0.68)",
+                "text_color_hover": "#C9A84C",
+                "text_indent": { "unit": "px", "size": 0, "sizes": [] },
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 13 },
+                "typography_font_weight": "500",
+                "typography_line_height": { "unit": "em", "size": 1.5 }
               },
               "elements": []
             }
@@ -153,11 +208,27 @@
               "elements": []
             },
             {
-              "id": "ftr_c4_links",
+              "id": "ftr_c4_list",
               "elType": "widget",
-              "widgetType": "html",
+              "widgetType": "icon-list",
               "settings": {
-                "html": "<ul class=\"rmftr-links\"><li><a href=\"/privacy-policy/\">Privacy Policy</a></li><li><a href=\"/terms-of-service/\">Terms of Service</a></li><li><span style=\"font-family:'Montserrat',sans-serif;font-size:13px;color:rgba(255,255,255,0.4);\">&#169;2024 Rip Media Group</span></li></ul>"
+                "icon_list": [
+                  { "_id": "lg1", "text": "Privacy Policy",       "link": { "url": "/privacy-policy/",   "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "lg2", "text": "Terms of Service",     "link": { "url": "/terms-of-service/", "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } },
+                  { "_id": "lg3", "text": "\u00a9 2024 Rip Media Group", "link": { "url": "#", "is_external": false, "nofollow": false }, "icon": { "value": "", "library": "" } }
+                ],
+                "layout": "traditional",
+                "space_between": { "unit": "px", "size": 10, "sizes": [] },
+                "icon_size": { "unit": "px", "size": 0, "sizes": [] },
+                "icon_self_align": "center",
+                "text_color": "rgba(255,255,255,0.68)",
+                "text_color_hover": "#C9A84C",
+                "text_indent": { "unit": "px", "size": 0, "sizes": [] },
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_size": { "unit": "px", "size": 13 },
+                "typography_font_weight": "500",
+                "typography_line_height": { "unit": "em", "size": 1.5 }
               },
               "elements": []
             }
@@ -184,7 +255,6 @@
         "border_color": "rgba(255,255,255,0.07)"
       },
       "elements": [
-
         {
           "id": "ftr_bar_left",
           "elType": "column",
@@ -195,7 +265,7 @@
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>&#169; 2024 Rip Media Group. Hollywood, CA.</p>",
+                "editor": "<p>\u00a9 2024 Rip Media Group. Hollywood, CA.</p>",
                 "text_color": "rgba(255,255,255,0.35)",
                 "typography_typography": "custom",
                 "typography_font_family": "Montserrat",
@@ -206,31 +276,30 @@
             }
           ]
         },
-
         {
           "id": "ftr_bar_right",
           "elType": "column",
-          "settings": { "_column_size": 50 },
+          "settings": {
+            "_column_size": 50,
+            "content_position": "middle"
+          },
           "elements": [
             {
               "id": "ftr_tagline",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p><em>You&#8217;re not losing to competitors. You&#8217;re losing to confusion.</em></p>",
+                "editor": "<p style=\"text-align:right;\"><em>You\u2019re not losing to competitors. You\u2019re losing to confusion.</em></p>",
                 "text_color": "#C9A84C",
                 "typography_typography": "custom",
                 "typography_font_family": "DM Sans",
                 "typography_font_size": { "unit": "px", "size": 13 },
-                "typography_font_weight": "400",
-                "align": "right",
-                "_css_classes": "rmftr-tagline"
+                "typography_font_weight": "400"
               },
               "elements": []
             }
           ]
         }
-
       ]
     }
 
