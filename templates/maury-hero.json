@@ -215,15 +215,42 @@
             "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
           },
           "elements": [
+
             {
-              "id": "mh_image",
+              "id": "mh_media_image",
               "elType": "widget",
-              "widgetType": "html",
+              "widgetType": "image",
               "settings": {
-                "html": "<div style=\"position:relative;border-radius:16px;border:1px solid rgba(201,168,76,.22);box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px;overflow:hidden;background:linear-gradient(145deg,#0d1f3c 0%,#0a1628 60%,#101e3a 100%);aspect-ratio:16/10;width:100%;display:flex;align-items:center;justify-content:center;\"><div style=\"position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#C9A84C,#C0392B);border-radius:16px 16px 0 0;\"></div><div style=\"text-align:center;opacity:.45;\"><svg width='36' height='36' viewBox='0 0 24 24' fill='none' stroke='#C9A84C' stroke-width='1.4' stroke-linecap='round' stroke-linejoin='round' style='margin:0 auto 10px;display:block;'><circle cx='12' cy='12' r='10'/><polygon points='10 8 16 12 10 16 10 8' fill='#C9A84C' stroke='none'/></svg><span style='font-family:Inter,sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.45);'>Hero Image / Video</span></div></div>"
+                "image": { "url": "", "id": "", "alt": "Hero Image" },
+                "image_size": "full",
+                "align": "center",
+                "caption_source": "none",
+                "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false },
+                "custom_css": "selector{position:relative;display:block;} selector .elementor-image-container{border-radius:16px;border:1px solid rgba(201,168,76,.22);box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px;overflow:hidden;position:relative;background:linear-gradient(145deg,#0d1f3c 0%,#0a1628 60%,#101e3a 100%);min-height:240px;display:flex;align-items:center;justify-content:center;} selector .elementor-image-container img{border-radius:16px;display:block;width:100%;} selector .elementor-image-container::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#C9A84C,#C0392B);z-index:1;pointer-events:none;border-radius:16px 16px 0 0;}"
+              },
+              "elements": []
+            },
+
+            {
+              "id": "mh_media_video",
+              "elType": "widget",
+              "widgetType": "video",
+              "settings": {
+                "video_type": "hosted",
+                "insert_url": true,
+                "hosted_url": { "url": "" },
+                "autoplay": true,
+                "mute": true,
+                "loop": true,
+                "controls": false,
+                "play_on_mobile": true,
+                "show_image_overlay": false,
+                "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                "custom_css": "selector{position:relative;} selector .elementor-video-container{border-radius:16px;border:1px solid rgba(201,168,76,.22);box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px;overflow:hidden;position:relative;} selector .elementor-video-container::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#C9A84C,#C0392B);z-index:2;pointer-events:none;border-radius:16px 16px 0 0;} selector video{border-radius:16px;display:block;width:100%;}"
               },
               "elements": []
             }
+
           ]
         }
 
