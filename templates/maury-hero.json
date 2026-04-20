@@ -5,33 +5,231 @@
   "page_settings": {},
   "content": [
     {
-      "id": "mh_outer",
+      "id": "mh_sec",
       "elType": "section",
       "isInner": false,
       "settings": {
+        "background_background": "gradient",
+        "background_color": "#0A1628",
+        "background_color_b": "#1B3A8A",
+        "background_gradient_angle": { "unit": "deg", "size": 135 },
+        "background_gradient_type": "linear",
         "stretch_section": "section-stretched",
         "layout": "full_width",
         "gap": "no",
-        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
-        "content_width": { "unit": "px", "size": 1600 }
+        "height": "min-height",
+        "custom_height": { "unit": "vh", "size": 88 },
+        "column_position": "middle",
+        "padding": { "unit": "px", "top": "96", "right": "40", "bottom": "96", "left": "40", "isLinked": false },
+        "padding_tablet": { "unit": "px", "top": "72", "right": "24", "bottom": "72", "left": "24", "isLinked": false },
+        "padding_mobile": { "unit": "px", "top": "64", "right": "20", "bottom": "64", "left": "20", "isLinked": false },
+        "content_width": { "unit": "px", "size": 1200 },
+        "custom_css": "selector{position:relative;overflow:hidden;} selector::before{content:'';position:absolute;width:500px;height:500px;top:-100px;left:-80px;background:radial-gradient(circle,rgba(201,168,76,.18),transparent 70%);border-radius:50%;filter:blur(90px);pointer-events:none;z-index:0;} selector::after{content:'';position:absolute;width:600px;height:600px;bottom:-200px;right:-100px;background:radial-gradient(circle,rgba(27,58,138,.4),transparent 70%);border-radius:50%;filter:blur(90px);pointer-events:none;z-index:0;} selector .elementor-container{position:relative;z-index:1;background-image:radial-gradient(circle,rgba(201,168,76,.1) 1px,transparent 1px);background-size:28px 28px;-webkit-mask-image:radial-gradient(ellipse 80% 80% at 65% 50%,black 30%,transparent 100%);mask-image:radial-gradient(ellipse 80% 80% at 65% 50%,black 30%,transparent 100%);}"
       },
       "elements": [
+
         {
-          "id": "mh_col",
+          "id": "mh_col_left",
           "elType": "column",
-          "settings": { "_column_size": 100, "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true } },
+          "settings": {
+            "_column_size": 55,
+            "content_position": "middle",
+            "padding": { "unit": "px", "top": "0", "right": "48", "bottom": "0", "left": "0", "isLinked": false },
+            "padding_tablet": { "unit": "px", "top": "0", "right": "0", "bottom": "40", "left": "0", "isLinked": false }
+          },
+          "elements": [
+
+            {
+              "id": "mh_overline",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "For B2B Leaders Who Are Done Guessing",
+                "header_size": "h6",
+                "align": "left",
+                "title_color": "#C9A84C",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": { "unit": "px", "size": 11 },
+                "typography_letter_spacing": { "unit": "px", "size": 2.5 },
+                "typography_text_transform": "uppercase",
+                "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false },
+                "custom_css": "selector .elementor-heading-title{display:flex;align-items:center;gap:8px;} selector .elementor-heading-title::before{content:'';display:inline-block;width:6px;height:6px;border-radius:50%;background:#C9A84C;flex-shrink:0;}"
+              },
+              "elements": []
+            },
+
+            {
+              "id": "mh_h1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Your buyers are confused.<br><span style=\"color:#C9A84C\">That\u2019s why they say no.</span>",
+                "header_size": "h1",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "800",
+                "typography_font_size": { "unit": "vw", "size": 4.5 },
+                "typography_font_size_tablet": { "unit": "px", "size": 44 },
+                "typography_font_size_mobile": { "unit": "px", "size": 36 },
+                "typography_line_height": { "unit": "em", "size": 1.06 },
+                "typography_letter_spacing": { "unit": "em", "size": -0.03 },
+                "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true }
+              },
+              "elements": []
+            },
+
+            {
+              "id": "mh_divider",
+              "elType": "widget",
+              "widgetType": "divider",
+              "settings": {
+                "style": "solid",
+                "color": "#C9A84C",
+                "weight": { "unit": "px", "size": 3, "sizes": [] },
+                "width": { "unit": "px", "size": 80, "sizes": [] },
+                "align": "left",
+                "gap": { "unit": "px", "size": 24, "sizes": [] },
+                "custom_css": "selector .elementor-divider-separator{background:linear-gradient(90deg,#C9A84C,#C0392B) !important;border:none !important;height:3px;width:80px;border-radius:2px;}"
+              },
+              "elements": []
+            },
+
+            {
+              "id": "mh_body",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>The Greenlight Process turns your team into a message machine \u2014 one clear story, every rep, every call, every market.</p>",
+                "text_color": "rgba(255,255,255,0.70)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 18 },
+                "typography_font_size_mobile": { "unit": "px", "size": 16 },
+                "typography_font_weight": "400",
+                "typography_line_height": { "unit": "em", "size": 1.65 },
+                "_padding": { "unit": "px", "top": "0", "right": "0", "bottom": "36", "left": "0", "isLinked": false }
+              },
+              "elements": []
+            },
+
+            {
+              "id": "mh_btns_wrap",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "gap": "no",
+                "layout": "auto",
+                "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+                "content_width": { "unit": "px", "size": 1200 }
+              },
+              "elements": [
+
+                {
+                  "id": "mh_btn1_col",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "width": { "unit": "auto" }
+                  },
+                  "elements": [
+                    {
+                      "id": "mh_btn_red",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "Get the Free Diagnosis \u2192",
+                        "link": { "url": "/audit/", "is_external": false, "nofollow": false },
+                        "align": "left",
+                        "size": "sm",
+                        "background_color": "#C0392B",
+                        "button_text_color": "#ffffff",
+                        "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "15", "right": "28", "bottom": "15", "left": "28", "isLinked": false },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "700",
+                        "typography_font_size": { "unit": "px", "size": 12 },
+                        "typography_letter_spacing": { "unit": "px", "size": 1 },
+                        "typography_text_transform": "uppercase",
+                        "custom_css": "selector .elementor-button{box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px,0 0 28px rgba(192,57,43,.28);transition:transform .25s cubic-bezier(.19,1,.22,1),box-shadow .25s,background-color .2s;position:relative;overflow:hidden;} selector .elementor-button:hover{background-color:#a83225 !important;color:#fff !important;transform:translateY(-6px);box-shadow:rgba(0,0,0,0) 0 96px 28px,rgba(0,0,0,.02) 0 62px 26px,rgba(0,0,0,.06) 0 36px 22px,rgba(0,0,0,.12) 0 16px 16px,rgba(0,0,0,.14) 0 4px 10px,0 0 40px rgba(192,57,43,.4);} selector .elementor-button::after{content:'';position:absolute;top:0;left:-100%;width:60%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);transition:left .45s ease;pointer-events:none;} selector .elementor-button:hover::after{left:160%;}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+
+                {
+                  "id": "mh_btn2_col",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 50,
+                    "width": { "unit": "auto" },
+                    "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "16", "isLinked": false }
+                  },
+                  "elements": [
+                    {
+                      "id": "mh_btn_gold",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings": {
+                        "text": "See How It Works",
+                        "link": { "url": "/services/", "is_external": false, "nofollow": false },
+                        "align": "left",
+                        "size": "sm",
+                        "background_color": "transparent",
+                        "button_text_color": "#C9A84C",
+                        "border_border": "solid",
+                        "border_width": { "unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true },
+                        "border_color": "#C9A84C",
+                        "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                        "text_padding": { "unit": "px", "top": "14", "right": "28", "bottom": "14", "left": "28", "isLinked": false },
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "700",
+                        "typography_font_size": { "unit": "px", "size": 12 },
+                        "typography_letter_spacing": { "unit": "px", "size": 1 },
+                        "typography_text_transform": "uppercase",
+                        "custom_css": "selector .elementor-button{box-shadow:none;transition:transform .25s cubic-bezier(.19,1,.22,1),background-color .2s;} selector .elementor-button:hover{background-color:rgba(201,168,76,.12) !important;color:#C9A84C !important;transform:translateY(-6px);}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+
+              ]
+            }
+
+          ]
+        },
+
+        {
+          "id": "mh_col_right",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45,
+            "content_position": "middle"
+          },
           "elements": [
             {
-              "id": "mh_widget",
+              "id": "mh_image",
               "elType": "widget",
-              "widgetType": "html",
+              "widgetType": "image",
               "settings": {
-                "html": "<link href=\"https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@400;500;600&family=DM+Sans:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@400;500&display=swap\" rel=\"stylesheet\">\n\n<style>\n.mcmoh-wrap *,.mcmoh-wrap *::before,.mcmoh-wrap *::after{box-sizing:border-box;margin:0;padding:0}\n\n/* ── Section ── */\n.mcmoh-wrap{\n  background:linear-gradient(135deg,#0A1628 0%,#1A1A2E 40%,#1B3A8A 100%);\n  min-height:88vh;\n  display:flex;\n  align-items:center;\n  position:relative;\n  overflow:hidden;\n  padding:96px 40px;\n  width:100%;\n}\n\n/* ── Dot grid ── */\n.mcmoh-dots{\n  position:absolute;inset:0;\n  background-image:radial-gradient(circle,rgba(201,168,76,.12) 1px,transparent 1px);\n  background-size:28px 28px;\n  -webkit-mask-image:radial-gradient(ellipse 70% 70% at 65% 50%,black 30%,transparent 100%);\n  mask-image:radial-gradient(ellipse 70% 70% at 65% 50%,black 30%,transparent 100%);\n  pointer-events:none;\n}\n\n/* ── Blurred orbs ── */\n.mcmoh-orb{position:absolute;border-radius:50%;filter:blur(90px);pointer-events:none}\n.mcmoh-orb-g{width:500px;height:500px;top:-100px;left:-80px;background:radial-gradient(circle,rgba(201,168,76,.18),transparent 70%)}\n.mcmoh-orb-b{width:600px;height:600px;bottom:-200px;right:-100px;background:radial-gradient(circle,rgba(27,58,138,.38),transparent 70%)}\n.mcmoh-orb-r{width:280px;height:280px;bottom:60px;right:200px;background:radial-gradient(circle,rgba(192,57,43,.18),transparent 70%)}\n\n/* ── Inner grid ── */\n.mcmoh-in{\n  max-width:1200px;\n  margin:0 auto;\n  width:100%;\n  display:grid;\n  grid-template-columns:1fr 1fr;\n  gap:64px;\n  align-items:center;\n  position:relative;\n  z-index:1;\n}\n\n/* ── Left copy ── */\n.mcmoh-overline{\n  font-family:'Montserrat',sans-serif;\n  font-size:11px;\n  font-weight:700;\n  letter-spacing:2.5px;\n  text-transform:uppercase;\n  color:#C9A84C;\n  display:flex;\n  align-items:center;\n  gap:8px;\n  margin-bottom:20px;\n}\n.mcmoh-overline::before{\n  content:'';\n  width:6px;height:6px;\n  border-radius:50%;\n  background:#C9A84C;\n  flex-shrink:0;\n}\n.mcmoh-h1{\n  font-family:'Montserrat',sans-serif;\n  font-size:clamp(36px,5vw,72px);\n  font-weight:800;\n  color:#ffffff;\n  line-height:1.06;\n  letter-spacing:-0.03em;\n  margin-bottom:8px;\n}\n.mcmoh-h1 span{color:#C9A84C}\n.mcmoh-divider{\n  width:80px;height:3px;\n  background:linear-gradient(90deg,#C9A84C,#C0392B);\n  border-radius:2px;\n  margin:24px 0;\n}\n.mcmoh-body{\n  font-family:'Inter',sans-serif;\n  font-size:18px;\n  color:rgba(255,255,255,.7);\n  line-height:1.65;\n  max-width:480px;\n  margin-bottom:36px;\n}\n.mcmoh-btns{display:flex;gap:16px;flex-wrap:wrap}\n\n/* ── Buttons ── */\n.mcmoh-btn-red{\n  display:inline-flex;\n  align-items:center;\n  gap:8px;\n  background:#C0392B;\n  color:#fff;\n  font-family:'Montserrat',sans-serif;\n  font-size:12px;\n  font-weight:700;\n  letter-spacing:1px;\n  text-transform:uppercase;\n  padding:15px 28px;\n  border-radius:12px;\n  text-decoration:none;\n  transition:transform .25s cubic-bezier(.19,1,.22,1),box-shadow .25s,background .2s;\n  box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px,0 0 28px rgba(192,57,43,.28);\n  position:relative;\n  overflow:hidden;\n}\n.mcmoh-btn-red:hover{\n  background:#a83225;\n  color:#fff;\n  transform:translateY(-6px);\n  box-shadow:rgba(0,0,0,0) 0 96px 28px,rgba(0,0,0,.02) 0 62px 26px,rgba(0,0,0,.06) 0 36px 22px,rgba(0,0,0,.12) 0 16px 16px,rgba(0,0,0,.14) 0 4px 10px,0 0 40px rgba(192,57,43,.4);\n}\n.mcmoh-btn-red::after{\n  content:'';\n  position:absolute;\n  top:0;left:-100%;width:60%;height:100%;\n  background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);\n  transition:left .45s ease;\n  pointer-events:none;\n}\n.mcmoh-btn-red:hover::after{left:160%}\n.mcmoh-arrow{transition:transform .25s cubic-bezier(.19,1,.22,1);display:inline-block}\n.mcmoh-btn-red:hover .mcmoh-arrow{transform:translateX(4px)}\n\n.mcmoh-btn-gold{\n  display:inline-flex;\n  align-items:center;\n  gap:8px;\n  background:transparent;\n  color:#C9A84C;\n  font-family:'Montserrat',sans-serif;\n  font-size:12px;\n  font-weight:700;\n  letter-spacing:1px;\n  text-transform:uppercase;\n  padding:14px 28px;\n  border-radius:12px;\n  border:1.5px solid #C9A84C;\n  text-decoration:none;\n  transition:transform .25s cubic-bezier(.19,1,.22,1),background .2s;\n}\n.mcmoh-btn-gold:hover{\n  background:rgba(201,168,76,.12);\n  color:#C9A84C;\n  transform:translateY(-6px);\n}\n\n/* ── Right image card ── */\n.mcmoh-img{\n  background:linear-gradient(135deg,rgba(27,58,138,.3),rgba(10,22,40,.6));\n  border-radius:20px;\n  border:1px solid rgba(201,168,76,.15);\n  aspect-ratio:4/3;\n  display:flex;\n  align-items:center;\n  justify-content:center;\n  position:relative;\n  overflow:hidden;\n  box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px;\n}\n.mcmoh-img::before{\n  content:'';\n  position:absolute;\n  top:0;left:0;right:0;\n  height:3px;\n  background:linear-gradient(90deg,#C9A84C,#C0392B);\n}\n.mcmoh-img-inner{\n  text-align:center;\n  color:rgba(255,255,255,.28);\n  font-family:'DM Mono',monospace;\n  font-size:12px;\n  letter-spacing:1px;\n}\n.mcmoh-img-icon{font-size:48px;margin-bottom:12px;opacity:.35;display:block}\n\n/* ── Responsive ── */\n@media(max-width:960px){\n  .mcmoh-in{grid-template-columns:1fr}\n  .mcmoh-img{display:none}\n  .mcmoh-wrap{padding:80px 24px;min-height:auto}\n}\n@media(max-width:480px){\n  .mcmoh-btns{flex-direction:column}\n  .mcmoh-btn-red,.mcmoh-btn-gold{justify-content:center}\n}\n</style>\n\n<div class=\"mcmoh-wrap\">\n  <div class=\"mcmoh-dots\"></div>\n  <div class=\"mcmoh-orb mcmoh-orb-g\"></div>\n  <div class=\"mcmoh-orb mcmoh-orb-b\"></div>\n  <div class=\"mcmoh-orb mcmoh-orb-r\"></div>\n\n  <div class=\"mcmoh-in\">\n\n    <!-- Left: Copy -->\n    <div>\n      <p class=\"mcmoh-overline\">For B2B Leaders Who Are Done Guessing</p>\n      <h1 class=\"mcmoh-h1\">\n        Your buyers are confused.<br>\n        <span>That&rsquo;s why they say no.</span>\n      </h1>\n      <div class=\"mcmoh-divider\"></div>\n      <p class=\"mcmoh-body\">\n        The Greenlight Process turns your team into a message machine &mdash; one clear story, every rep, every call, every market.\n      </p>\n      <div class=\"mcmoh-btns\">\n        <a href=\"/audit/\" class=\"mcmoh-btn-red\">\n          Get the Free Diagnosis <span class=\"mcmoh-arrow\">&#8594;</span>\n        </a>\n        <a href=\"/services/\" class=\"mcmoh-btn-gold\">\n          See How It Works\n        </a>\n      </div>\n    </div>\n\n    <!-- Right: Image / Video placeholder -->\n    <div class=\"mcmoh-img\">\n      <div class=\"mcmoh-img-inner\">\n        <span class=\"mcmoh-img-icon\">&#127919;</span>\n        <div>Hero Image / Video</div>\n      </div>\n    </div>\n\n  </div>\n</div>"
+                "image": { "url": "", "id": "", "alt": "" },
+                "image_size": "full",
+                "align": "center",
+                "caption_source": "none",
+                "custom_css": "selector{position:relative;} selector .elementor-image img{border-radius:20px;border:1px solid rgba(201,168,76,.18);box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px;display:block;width:100%;} selector::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#C9A84C,#C0392B);border-radius:20px 20px 0 0;z-index:1;pointer-events:none;}"
               },
               "elements": []
             }
           ]
         }
+
       ]
     }
   ]
