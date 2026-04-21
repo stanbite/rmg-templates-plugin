@@ -1,0 +1,59 @@
+{
+  "version": "0.4",
+  "title": "Maury CMO Trust Bar",
+  "type": "section",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "tb_sec",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0D1A2E",
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "0",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": true
+        },
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "rgba(255,255,255,0.07)",
+        "custom_css": "selector{overflow:hidden;position:relative;} selector::before{content:'';position:absolute;left:0;top:0;bottom:0;width:80px;background:linear-gradient(90deg,#0D1A2E,transparent);z-index:2;pointer-events:none;} selector::after{content:'';position:absolute;right:0;top:0;bottom:0;width:80px;background:linear-gradient(270deg,#0D1A2E,transparent);z-index:2;pointer-events:none;}"
+      },
+      "elements": [
+        {
+          "id": "tb_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "tb_track_wrap",
+              "elType": "widget",
+              "widgetType": "html",
+              "settings": {
+                "html": "<style>#tb-track-outer{width:100%;overflow:hidden;display:flex;align-items:center;height:56px;}#tb-track{display:flex;align-items:center;gap:0;white-space:nowrap;animation:tbScroll 32s linear infinite;will-change:transform;}#tb-track:hover{animation-play-state:paused;}.tb-name{font-family:'Montserrat',sans-serif;font-weight:700;font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,0.38);padding:0 32px;transition:color .2s;cursor:default;}.tb-name:hover{color:rgba(201,168,76,0.85);}.tb-dot{width:4px;height:4px;border-radius:50%;background:rgba(255,255,255,0.12);flex-shrink:0;}@keyframes tbScroll{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}</style><div id=\"tb-track-outer\"><div id=\"tb-track\"><span class=\"tb-name\">LinkedIn Learning</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Cisco</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Accenture</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Deloitte</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Stanford</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Kaiser Permanente</span><span class=\"tb-dot\"></span><span class=\"tb-name\">LexisNexis</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Biogen</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Danaher</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Forbes</span><span class=\"tb-dot\"></span><span class=\"tb-name\">PGA</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Motorola</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Novo Biosciences</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Microduino</span><span class=\"tb-dot\"></span><span class=\"tb-name\">LinkedIn Learning</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Cisco</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Accenture</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Deloitte</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Stanford</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Kaiser Permanente</span><span class=\"tb-dot\"></span><span class=\"tb-name\">LexisNexis</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Biogen</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Danaher</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Forbes</span><span class=\"tb-dot\"></span><span class=\"tb-name\">PGA</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Motorola</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Novo Biosciences</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Microduino</span><span class=\"tb-dot\"></span></div></div>"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
