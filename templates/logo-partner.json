@@ -1,0 +1,580 @@
+{
+  "version": "0.4",
+  "title": "Logo Partner",
+  "type": "section",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "lp_sec",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0A1628",
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "48",
+          "right": "24",
+          "bottom": "48",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "40",
+          "right": "16",
+          "bottom": "40",
+          "left": "16",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1200
+        },
+        "border_border": "solid",
+        "border_width": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "1",
+          "left": "0",
+          "isLinked": false
+        },
+        "border_color": "rgba(255,255,255,0.07)"
+      },
+      "elements": [
+        {
+          "id": "lp_main_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "lp_overline",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Trusted By 400+ Companies",
+                "header_size": "h6",
+                "align": "center",
+                "title_color": "rgba(255,255,255,0.30)",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 3
+                },
+                "typography_text_transform": "uppercase",
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "36",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "lp_row1",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "full_width",
+                "gap": "no",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "content_width": {
+                  "unit": "px",
+                  "size": 1200
+                }
+              },
+              "elements": [
+                {
+                  "id": "lp_c1",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 16,
+                    "content_position": "middle",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "24",
+                      "bottom": "16",
+                      "left": "24",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "lp_i1",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": "",
+                          "alt": "LinkedIn Learning"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "caption_source": "none",
+                        "custom_css": "selector .elementor-image img{filter:grayscale(100%) brightness(1.8) opacity(.55);transition:filter .3s ease,opacity .3s ease,transform .3s ease;max-height:40px;width:auto;object-fit:contain;}selector .elementor-image img:hover{filter:grayscale(0%) brightness(1) opacity(1);transform:translateY(-2px);}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "lp_c2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 16,
+                    "content_position": "middle",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "24",
+                      "bottom": "16",
+                      "left": "24",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "lp_i2",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": "",
+                          "alt": "Cisco"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "caption_source": "none",
+                        "custom_css": "selector .elementor-image img{filter:grayscale(100%) brightness(1.8) opacity(.55);transition:filter .3s ease,opacity .3s ease,transform .3s ease;max-height:40px;width:auto;object-fit:contain;}selector .elementor-image img:hover{filter:grayscale(0%) brightness(1) opacity(1);transform:translateY(-2px);}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "lp_c3",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 16,
+                    "content_position": "middle",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "24",
+                      "bottom": "16",
+                      "left": "24",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "lp_i3",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": "",
+                          "alt": "Accenture"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "caption_source": "none",
+                        "custom_css": "selector .elementor-image img{filter:grayscale(100%) brightness(1.8) opacity(.55);transition:filter .3s ease,opacity .3s ease,transform .3s ease;max-height:40px;width:auto;object-fit:contain;}selector .elementor-image img:hover{filter:grayscale(0%) brightness(1) opacity(1);transform:translateY(-2px);}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "lp_c4",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 16,
+                    "content_position": "middle",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "24",
+                      "bottom": "16",
+                      "left": "24",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "lp_i4",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": "",
+                          "alt": "Deloitte"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "caption_source": "none",
+                        "custom_css": "selector .elementor-image img{filter:grayscale(100%) brightness(1.8) opacity(.55);transition:filter .3s ease,opacity .3s ease,transform .3s ease;max-height:40px;width:auto;object-fit:contain;}selector .elementor-image img:hover{filter:grayscale(0%) brightness(1) opacity(1);transform:translateY(-2px);}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "lp_c5",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 16,
+                    "content_position": "middle",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "24",
+                      "bottom": "16",
+                      "left": "24",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "lp_i5",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": "",
+                          "alt": "Stanford"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "caption_source": "none",
+                        "custom_css": "selector .elementor-image img{filter:grayscale(100%) brightness(1.8) opacity(.55);transition:filter .3s ease,opacity .3s ease,transform .3s ease;max-height:40px;width:auto;object-fit:contain;}selector .elementor-image img:hover{filter:grayscale(0%) brightness(1) opacity(1);transform:translateY(-2px);}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "lp_c6",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 16,
+                    "content_position": "middle",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "24",
+                      "bottom": "16",
+                      "left": "24",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "lp_i6",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": "",
+                          "alt": "Kaiser Permanente"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "caption_source": "none",
+                        "custom_css": "selector .elementor-image img{filter:grayscale(100%) brightness(1.8) opacity(.55);transition:filter .3s ease,opacity .3s ease,transform .3s ease;max-height:40px;width:auto;object-fit:contain;}selector .elementor-image img:hover{filter:grayscale(0%) brightness(1) opacity(1);transform:translateY(-2px);}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lp_spacer",
+              "elType": "widget",
+              "widgetType": "spacer",
+              "settings": {
+                "space": {
+                  "unit": "px",
+                  "size": 8,
+                  "sizes": []
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "lp_row2",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "full_width",
+                "gap": "no",
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "content_width": {
+                  "unit": "px",
+                  "size": 1200
+                }
+              },
+              "elements": [
+                {
+                  "id": "lp_c7",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 16,
+                    "content_position": "middle",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "24",
+                      "bottom": "16",
+                      "left": "24",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "lp_i7",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": "",
+                          "alt": "LexisNexis"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "caption_source": "none",
+                        "custom_css": "selector .elementor-image img{filter:grayscale(100%) brightness(1.8) opacity(.55);transition:filter .3s ease,opacity .3s ease,transform .3s ease;max-height:40px;width:auto;object-fit:contain;}selector .elementor-image img:hover{filter:grayscale(0%) brightness(1) opacity(1);transform:translateY(-2px);}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "lp_c8",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 16,
+                    "content_position": "middle",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "24",
+                      "bottom": "16",
+                      "left": "24",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "lp_i8",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": "",
+                          "alt": "Biogen"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "caption_source": "none",
+                        "custom_css": "selector .elementor-image img{filter:grayscale(100%) brightness(1.8) opacity(.55);transition:filter .3s ease,opacity .3s ease,transform .3s ease;max-height:40px;width:auto;object-fit:contain;}selector .elementor-image img:hover{filter:grayscale(0%) brightness(1) opacity(1);transform:translateY(-2px);}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "lp_c9",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 16,
+                    "content_position": "middle",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "24",
+                      "bottom": "16",
+                      "left": "24",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "lp_i9",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": "",
+                          "alt": "Danaher"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "caption_source": "none",
+                        "custom_css": "selector .elementor-image img{filter:grayscale(100%) brightness(1.8) opacity(.55);transition:filter .3s ease,opacity .3s ease,transform .3s ease;max-height:40px;width:auto;object-fit:contain;}selector .elementor-image img:hover{filter:grayscale(0%) brightness(1) opacity(1);transform:translateY(-2px);}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "lp_c10",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 16,
+                    "content_position": "middle",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "24",
+                      "bottom": "16",
+                      "left": "24",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "lp_i10",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": "",
+                          "alt": "Forbes"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "caption_source": "none",
+                        "custom_css": "selector .elementor-image img{filter:grayscale(100%) brightness(1.8) opacity(.55);transition:filter .3s ease,opacity .3s ease,transform .3s ease;max-height:40px;width:auto;object-fit:contain;}selector .elementor-image img:hover{filter:grayscale(0%) brightness(1) opacity(1);transform:translateY(-2px);}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "lp_c11",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 16,
+                    "content_position": "middle",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "24",
+                      "bottom": "16",
+                      "left": "24",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "lp_i11",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": "",
+                          "alt": "PGA"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "caption_source": "none",
+                        "custom_css": "selector .elementor-image img{filter:grayscale(100%) brightness(1.8) opacity(.55);transition:filter .3s ease,opacity .3s ease,transform .3s ease;max-height:40px;width:auto;object-fit:contain;}selector .elementor-image img:hover{filter:grayscale(0%) brightness(1) opacity(1);transform:translateY(-2px);}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "lp_c12",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 16,
+                    "content_position": "middle",
+                    "padding": {
+                      "unit": "px",
+                      "top": "16",
+                      "right": "24",
+                      "bottom": "16",
+                      "left": "24",
+                      "isLinked": false
+                    }
+                  },
+                  "elements": [
+                    {
+                      "id": "lp_i12",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": {
+                          "url": "",
+                          "id": "",
+                          "alt": "Motorola"
+                        },
+                        "image_size": "full",
+                        "align": "center",
+                        "caption_source": "none",
+                        "custom_css": "selector .elementor-image img{filter:grayscale(100%) brightness(1.8) opacity(.55);transition:filter .3s ease,opacity .3s ease,transform .3s ease;max-height:40px;width:auto;object-fit:contain;}selector .elementor-image img:hover{filter:grayscale(0%) brightness(1) opacity(1);transform:translateY(-2px);}"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
