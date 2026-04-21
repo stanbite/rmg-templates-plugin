@@ -1,0 +1,672 @@
+{
+  "version": "0.4",
+  "title": "Problem Section — 4 Cards",
+  "type": "section",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "prob_sec",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#F7F7F2",
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "gap": "no",
+        "padding": {
+          "unit": "px",
+          "top": "96",
+          "right": "40",
+          "bottom": "96",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "72",
+          "right": "24",
+          "bottom": "72",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "56",
+          "right": "20",
+          "bottom": "56",
+          "left": "20",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1200
+        }
+      },
+      "elements": [
+        {
+          "id": "prob_main_col",
+          "elType": "column",
+          "settings": {
+            "_column_size": 100
+          },
+          "elements": [
+            {
+              "id": "prob_overline",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "The Real Problem",
+                "header_size": "h6",
+                "align": "center",
+                "title_color": "#C9A84C",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2
+                },
+                "typography_text_transform": "uppercase",
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "selector .elementor-heading-title{display:flex !important;align-items:center !important;justify-content:center !important;gap:10px !important;} selector .elementor-heading-title::before,selector .elementor-heading-title::after{content:'';display:block;width:32px;height:1px;background:#C9A84C;flex-shrink:0;}"
+              },
+              "elements": []
+            },
+            {
+              "id": "prob_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "When buyers are confused,<br>they choose <span style=\"color:#1B3A8A\">clarity</span> &#8212; or they leave.",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#080808",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "800",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 48
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 28
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.15
+                },
+                "typography_letter_spacing": {
+                  "unit": "em",
+                  "size": -0.03
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "prob_sub",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>If any of these sound familiar, your message is broken &#8212; not your product.</p>",
+                "text_color": "#555555",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 17
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.65
+                },
+                "align": "center",
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "64",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "selector{text-align:center;max-width:560px;margin:0 auto;}"
+              },
+              "elements": []
+            },
+            {
+              "id": "prob_cards_row",
+              "elType": "section",
+              "isInner": true,
+              "settings": {
+                "layout": "full_width",
+                "gap": "custom",
+                "gap_columns_custom": {
+                  "unit": "px",
+                  "size": 24
+                },
+                "content_width": {
+                  "unit": "px",
+                  "size": 1200
+                },
+                "padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "prob_c1",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "content_position": "top",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "custom_css": "selector .elementor-widget-wrap{background:#ffffff;border:1px solid #e8e8e8;border-radius:16px;padding:28px 24px !important;box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px;transition:transform .3s cubic-bezier(.19,1,.22,1),box-shadow .3s,border-color .3s;position:relative !important;overflow:hidden;} selector .elementor-widget-wrap::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#C9A84C,#C0392B);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.19,1,.22,1);z-index:1;} selector:hover .elementor-widget-wrap{transform:translateY(-6px);box-shadow:rgba(0,0,0,0) 0 96px 28px,rgba(0,0,0,.02) 0 62px 26px,rgba(0,0,0,.06) 0 36px 22px,rgba(0,0,0,.12) 0 16px 16px,rgba(0,0,0,.14) 0 4px 10px;border-color:rgba(201,168,76,.3);} selector:hover .elementor-widget-wrap::before{transform:scaleX(1);}"
+                  },
+                  "elements": [
+                    {
+                      "id": "prob_n1",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "01",
+                        "header_size": "div",
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "custom_css": "selector{position:absolute !important;top:12px !important;right:16px !important;z-index:0 !important;pointer-events:none;margin:0 !important;padding:0 !important;} selector .elementor-heading-title{font-family:'Montserrat',sans-serif !important;font-size:48px !important;font-weight:800 !important;color:rgba(27,58,138,.08) !important;line-height:1 !important;}"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "prob_ico1",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "🔇",
+                        "header_size": "div",
+                        "title_color": "inherit",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 32
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "16",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "prob_t1",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Deals stall after the demo",
+                        "header_size": "h4",
+                        "title_color": "#080808",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "10",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "prob_b1",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>They were interested. Then they went quiet. The story didn&#8217;t stick.</p>",
+                        "text_color": "#666666",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "prob_c2",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "content_position": "top",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "custom_css": "selector .elementor-widget-wrap{background:#ffffff;border:1px solid #e8e8e8;border-radius:16px;padding:28px 24px !important;box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px;transition:transform .3s cubic-bezier(.19,1,.22,1),box-shadow .3s,border-color .3s;position:relative !important;overflow:hidden;} selector .elementor-widget-wrap::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#C9A84C,#C0392B);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.19,1,.22,1);z-index:1;} selector:hover .elementor-widget-wrap{transform:translateY(-6px);box-shadow:rgba(0,0,0,0) 0 96px 28px,rgba(0,0,0,.02) 0 62px 26px,rgba(0,0,0,.06) 0 36px 22px,rgba(0,0,0,.12) 0 16px 16px,rgba(0,0,0,.14) 0 4px 10px;border-color:rgba(201,168,76,.3);} selector:hover .elementor-widget-wrap::before{transform:scaleX(1);}"
+                  },
+                  "elements": [
+                    {
+                      "id": "prob_n2",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "02",
+                        "header_size": "div",
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "custom_css": "selector{position:absolute !important;top:12px !important;right:16px !important;z-index:0 !important;pointer-events:none;margin:0 !important;padding:0 !important;} selector .elementor-heading-title{font-family:'Montserrat',sans-serif !important;font-size:48px !important;font-weight:800 !important;color:rgba(27,58,138,.08) !important;line-height:1 !important;}"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "prob_ico2",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "💸",
+                        "header_size": "div",
+                        "title_color": "inherit",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 32
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "16",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "prob_t2",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Price becomes the conversation",
+                        "header_size": "h4",
+                        "title_color": "#080808",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "10",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "prob_b2",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>When buyers can&#8217;t see the difference, they compare on cost.</p>",
+                        "text_color": "#666666",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "prob_c3",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "content_position": "top",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "custom_css": "selector .elementor-widget-wrap{background:#ffffff;border:1px solid #e8e8e8;border-radius:16px;padding:28px 24px !important;box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px;transition:transform .3s cubic-bezier(.19,1,.22,1),box-shadow .3s,border-color .3s;position:relative !important;overflow:hidden;} selector .elementor-widget-wrap::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#C9A84C,#C0392B);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.19,1,.22,1);z-index:1;} selector:hover .elementor-widget-wrap{transform:translateY(-6px);box-shadow:rgba(0,0,0,0) 0 96px 28px,rgba(0,0,0,.02) 0 62px 26px,rgba(0,0,0,.06) 0 36px 22px,rgba(0,0,0,.12) 0 16px 16px,rgba(0,0,0,.14) 0 4px 10px;border-color:rgba(201,168,76,.3);} selector:hover .elementor-widget-wrap::before{transform:scaleX(1);}"
+                  },
+                  "elements": [
+                    {
+                      "id": "prob_n3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "03",
+                        "header_size": "div",
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "custom_css": "selector{position:absolute !important;top:12px !important;right:16px !important;z-index:0 !important;pointer-events:none;margin:0 !important;padding:0 !important;} selector .elementor-heading-title{font-family:'Montserrat',sans-serif !important;font-size:48px !important;font-weight:800 !important;color:rgba(27,58,138,.08) !important;line-height:1 !important;}"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "prob_ico3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "🎯",
+                        "header_size": "div",
+                        "title_color": "inherit",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 32
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "16",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "prob_t3",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Team can&#8217;t tell the same story twice",
+                        "header_size": "h4",
+                        "title_color": "#080808",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "10",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "prob_b3",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>Every rep explains it differently. Buyers feel the inconsistency.</p>",
+                        "text_color": "#666666",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "prob_c4",
+                  "elType": "column",
+                  "settings": {
+                    "_column_size": 25,
+                    "content_position": "top",
+                    "padding": {
+                      "unit": "px",
+                      "top": "0",
+                      "right": "0",
+                      "bottom": "0",
+                      "left": "0",
+                      "isLinked": true
+                    },
+                    "custom_css": "selector .elementor-widget-wrap{background:#ffffff;border:1px solid #e8e8e8;border-radius:16px;padding:28px 24px !important;box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px;transition:transform .3s cubic-bezier(.19,1,.22,1),box-shadow .3s,border-color .3s;position:relative !important;overflow:hidden;} selector .elementor-widget-wrap::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#C9A84C,#C0392B);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.19,1,.22,1);z-index:1;} selector:hover .elementor-widget-wrap{transform:translateY(-6px);box-shadow:rgba(0,0,0,0) 0 96px 28px,rgba(0,0,0,.02) 0 62px 26px,rgba(0,0,0,.06) 0 36px 22px,rgba(0,0,0,.12) 0 16px 16px,rgba(0,0,0,.14) 0 4px 10px;border-color:rgba(201,168,76,.3);} selector:hover .elementor-widget-wrap::before{transform:scaleX(1);}"
+                  },
+                  "elements": [
+                    {
+                      "id": "prob_n4",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "04",
+                        "header_size": "div",
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        },
+                        "custom_css": "selector{position:absolute !important;top:12px !important;right:16px !important;z-index:0 !important;pointer-events:none;margin:0 !important;padding:0 !important;} selector .elementor-heading-title{font-family:'Montserrat',sans-serif !important;font-size:48px !important;font-weight:800 !important;color:rgba(27,58,138,.08) !important;line-height:1 !important;}"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "prob_ico4",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "🤖",
+                        "header_size": "div",
+                        "title_color": "inherit",
+                        "typography_typography": "custom",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 32
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "16",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "prob_t4",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "AI tools aren&#8217;t moving the number",
+                        "header_size": "h4",
+                        "title_color": "#080808",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Montserrat",
+                        "typography_font_weight": "700",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 15
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.3
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "10",
+                          "left": "0",
+                          "isLinked": false
+                        }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "prob_b4",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings": {
+                        "editor": "<p>You bought the tools. The problem was never the machine &#8212; it was the message.</p>",
+                        "text_color": "#666666",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": {
+                          "unit": "px",
+                          "size": 13
+                        },
+                        "typography_line_height": {
+                          "unit": "em",
+                          "size": 1.6
+                        },
+                        "_padding": {
+                          "unit": "px",
+                          "top": "0",
+                          "right": "0",
+                          "bottom": "0",
+                          "left": "0",
+                          "isLinked": true
+                        }
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
