@@ -32,22 +32,53 @@
           "isLinked": false
         },
         "border_color": "rgba(255,255,255,0.07)",
-        "custom_css": "selector{overflow:hidden;position:relative;} selector::before{content:'';position:absolute;left:0;top:0;bottom:0;width:80px;background:linear-gradient(90deg,#0D1A2E,transparent);z-index:2;pointer-events:none;} selector::after{content:'';position:absolute;right:0;top:0;bottom:0;width:80px;background:linear-gradient(270deg,#0D1A2E,transparent);z-index:2;pointer-events:none;}"
+        "custom_css": "@keyframes tbScroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}} selector{overflow:hidden;position:relative;} selector::before{content:'';position:absolute;left:0;top:0;bottom:0;width:100px;background:linear-gradient(90deg,#0D1A2E 40%,transparent);z-index:2;pointer-events:none;} selector::after{content:'';position:absolute;right:0;top:0;bottom:0;width:100px;background:linear-gradient(270deg,#0D1A2E 40%,transparent);z-index:2;pointer-events:none;}"
       },
       "elements": [
         {
           "id": "tb_col",
           "elType": "column",
           "settings": {
-            "_column_size": 100
+            "_column_size": 100,
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
           },
           "elements": [
             {
-              "id": "tb_track_wrap",
+              "id": "tb_names",
               "elType": "widget",
-              "widgetType": "html",
+              "widgetType": "heading",
               "settings": {
-                "html": "<style>#tb-track-outer{width:100%;overflow:hidden;display:flex;align-items:center;height:56px;}#tb-track{display:flex;align-items:center;gap:0;white-space:nowrap;animation:tbScroll 32s linear infinite;will-change:transform;}#tb-track:hover{animation-play-state:paused;}.tb-name{font-family:'Montserrat',sans-serif;font-weight:700;font-size:10px;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,0.38);padding:0 32px;transition:color .2s;cursor:default;}.tb-name:hover{color:rgba(201,168,76,0.85);}.tb-dot{width:4px;height:4px;border-radius:50%;background:rgba(255,255,255,0.12);flex-shrink:0;}@keyframes tbScroll{0%{transform:translateX(0);}100%{transform:translateX(-50%);}}</style><div id=\"tb-track-outer\"><div id=\"tb-track\"><span class=\"tb-name\">LinkedIn Learning</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Cisco</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Accenture</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Deloitte</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Stanford</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Kaiser Permanente</span><span class=\"tb-dot\"></span><span class=\"tb-name\">LexisNexis</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Biogen</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Danaher</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Forbes</span><span class=\"tb-dot\"></span><span class=\"tb-name\">PGA</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Motorola</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Novo Biosciences</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Microduino</span><span class=\"tb-dot\"></span><span class=\"tb-name\">LinkedIn Learning</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Cisco</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Accenture</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Deloitte</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Stanford</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Kaiser Permanente</span><span class=\"tb-dot\"></span><span class=\"tb-name\">LexisNexis</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Biogen</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Danaher</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Forbes</span><span class=\"tb-dot\"></span><span class=\"tb-name\">PGA</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Motorola</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Novo Biosciences</span><span class=\"tb-dot\"></span><span class=\"tb-name\">Microduino</span><span class=\"tb-dot\"></span></div></div>"
+                "title": "LinkedIn Learning&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Cisco&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Accenture&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Deloitte&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Stanford&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Kaiser Permanente&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;LexisNexis&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Biogen&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Danaher&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Forbes&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;PGA&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Motorola&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Novo Biosciences&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Microduino&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;LinkedIn Learning&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Cisco&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Accenture&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Deloitte&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Stanford&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Kaiser Permanente&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;LexisNexis&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Biogen&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Danaher&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Forbes&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;PGA&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Motorola&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Novo Biosciences&nbsp;&nbsp;&nbsp;·&nbsp;&nbsp;&nbsp;Microduino",
+                "header_size": "h6",
+                "title_color": "rgba(255,255,255,0.38)",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 10
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
+                "typography_text_transform": "uppercase",
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "0",
+                  "left": "0",
+                  "isLinked": true
+                },
+                "custom_css": " selector .elementor-heading-title{display:block !important;white-space:nowrap !important;overflow:visible !important;width:max-content !important;line-height:56px !important;animation:tbScroll 32s linear infinite;will-change:transform;} selector:hover .elementor-heading-title{animation-play-state:paused;} selector .elementor-heading-title:hover{color:rgba(201,168,76,0.85);}"
               },
               "elements": []
             }
