@@ -24,17 +24,17 @@
         "padding": {
           "unit": "px",
           "top": "96",
-          "right": "40",
+          "right": "64",
           "bottom": "96",
-          "left": "40",
+          "left": "64",
           "isLinked": false
         },
         "padding_tablet": {
           "unit": "px",
           "top": "72",
-          "right": "24",
+          "right": "32",
           "bottom": "72",
-          "left": "24",
+          "left": "32",
           "isLinked": false
         },
         "padding_mobile": {
@@ -53,15 +53,15 @@
       },
       "elements": [
         {
-          "id": "guide_col_left",
+          "id": "guide_col_l",
           "elType": "column",
           "settings": {
-            "_column_size": 55,
+            "_column_size": 50,
             "content_position": "middle",
             "padding": {
               "unit": "px",
               "top": "0",
-              "right": "56",
+              "right": "48",
               "bottom": "0",
               "left": "0",
               "isLinked": false
@@ -78,14 +78,14 @@
               "unit": "px",
               "top": "0",
               "right": "0",
-              "bottom": "40",
+              "bottom": "36",
               "left": "0",
               "isLinked": false
             }
           },
           "elements": [
             {
-              "id": "guide_overline",
+              "id": "g_over",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
@@ -118,11 +118,11 @@
               "elements": []
             },
             {
-              "id": "guide_h2",
+              "id": "g_h2",
               "elType": "widget",
               "widgetType": "heading",
               "settings": {
-                "title": "I’ve fixed this for<br><span style=\"color:#C9A84C\">400+ companies.</span>",
+                "title": "I've fixed this for<br><span style=\"color:#C9A84C\">400+ companies.</span>",
                 "header_size": "h2",
                 "align": "left",
                 "title_color": "#ffffff",
@@ -161,11 +161,11 @@
               "elements": []
             },
             {
-              "id": "guide_body",
+              "id": "g_body",
               "elType": "widget",
               "widgetType": "text-editor",
               "settings": {
-                "editor": "<p>I’m Maury. For 20 years I’ve helped B2B teams go from confused to converting — using one repeatable story system called the Greenlight Process.</p>",
+                "editor": "<p>I'm Maury. For 20 years I've helped B2B teams go from confused to converting — using one repeatable story system called the Greenlight Process.</p>",
                 "text_color": "rgba(255,255,255,0.68)",
                 "typography_typography": "custom",
                 "typography_font_family": "Inter",
@@ -177,7 +177,6 @@
                   "unit": "px",
                   "size": 15
                 },
-                "typography_font_weight": "400",
                 "typography_line_height": {
                   "unit": "em",
                   "size": 1.7
@@ -194,7 +193,7 @@
               "elements": []
             },
             {
-              "id": "guide_cred1",
+              "id": "g_c1",
               "elType": "widget",
               "widgetType": "icon-box",
               "settings": {
@@ -239,7 +238,7 @@
               "elements": []
             },
             {
-              "id": "guide_cred2",
+              "id": "g_c2",
               "elType": "widget",
               "widgetType": "icon-box",
               "settings": {
@@ -284,7 +283,7 @@
               "elements": []
             },
             {
-              "id": "guide_cred3",
+              "id": "g_c3",
               "elType": "widget",
               "widgetType": "icon-box",
               "settings": {
@@ -329,7 +328,7 @@
               "elements": []
             },
             {
-              "id": "guide_btn",
+              "id": "g_btn",
               "elType": "widget",
               "widgetType": "button",
               "settings": {
@@ -370,34 +369,42 @@
                   "size": 1.5
                 },
                 "typography_text_transform": "uppercase",
-                "custom_css": "selector .elementor-button{box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px,0 0 28px rgba(192,57,43,.28);transition:transform .25s cubic-bezier(.19,1,.22,1),box-shadow .25s,background-color .2s;position:relative;overflow:hidden;white-space:nowrap;} selector .elementor-button:hover{background-color:#a83225 !important;transform:translateY(-5px);box-shadow:rgba(0,0,0,0) 0 96px 28px,rgba(0,0,0,.02) 0 62px 26px,rgba(0,0,0,.06) 0 36px 22px,rgba(0,0,0,.12) 0 16px 16px,rgba(0,0,0,.14) 0 4px 10px,0 0 40px rgba(192,57,43,.45);} selector .elementor-button::after{content:'';position:absolute;top:0;left:-100%;width:60%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);transition:left .45s ease;pointer-events:none;} selector .elementor-button:hover::after{left:160%;}"
+                "custom_css": "selector .elementor-button{box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px,0 0 28px rgba(192,57,43,.28);transition:transform .25s cubic-bezier(.19,1,.22,1),box-shadow .25s,background-color .2s;position:relative;overflow:hidden;white-space:nowrap;} selector .elementor-button:hover{background-color:#a83225 !important;transform:translateY(-5px);} selector .elementor-button::after{content:'';position:absolute;top:0;left:-100%;width:60%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);transition:left .45s ease;pointer-events:none;} selector .elementor-button:hover::after{left:160%;}"
               },
               "elements": []
             }
           ]
         },
         {
-          "id": "guide_col_right",
+          "id": "guide_col_r",
           "elType": "column",
           "settings": {
-            "_column_size": 45,
-            "content_position": "middle"
+            "_column_size": 50,
+            "content_position": "middle",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": true
+            }
           },
           "elements": [
             {
-              "id": "guide_image",
+              "id": "g_img",
               "elType": "widget",
               "widgetType": "image",
               "settings": {
                 "image": {
                   "url": "",
                   "id": "",
-                  "alt": "Maury Photo"
+                  "alt": "Maury Rogow"
                 },
                 "image_size": "full",
                 "align": "center",
                 "caption_source": "none",
-                "custom_css": "selector{position:relative;} selector .elementor-image-container{border-radius:16px;border:1px solid rgba(201,168,76,.18);box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px;overflow:hidden;position:relative;background:linear-gradient(135deg,rgba(27,58,138,.25),rgba(10,22,40,.60));min-height:320px;display:flex;align-items:center;justify-content:center;} selector .elementor-image-container img{border-radius:16px;display:block;width:100%;} selector .elementor-image-container::before{content:'';position:absolute;top:0;left:0;bottom:0;width:3px;background:linear-gradient(180deg,#C9A84C,#C0392B);z-index:1;pointer-events:none;border-radius:16px 0 0 16px;}"
+                "custom_css": "selector{position:relative;display:block;} selector .elementor-image-container{border-radius:20px;border:1px solid rgba(201,168,76,.18);box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px;overflow:hidden;position:relative;background:linear-gradient(135deg,rgba(27,58,138,.25),rgba(10,22,40,.60));min-height:400px;display:flex;align-items:center;justify-content:center;} selector .elementor-image-container img{border-radius:20px;display:block;width:100%;height:100%;object-fit:cover;} selector .elementor-image-container::before{content:'';position:absolute;top:0;left:0;bottom:0;width:3px;background:linear-gradient(180deg,#C9A84C,#C0392B);z-index:1;pointer-events:none;border-radius:20px 0 0 20px;}"
               },
               "elements": []
             }
