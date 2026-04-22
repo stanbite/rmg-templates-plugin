@@ -1,0 +1,409 @@
+{
+  "version": "0.4",
+  "title": "Guide Section",
+  "type": "section",
+  "page_settings": {},
+  "content": [
+    {
+      "id": "guide_sec",
+      "elType": "section",
+      "isInner": false,
+      "settings": {
+        "background_background": "gradient",
+        "background_color": "#0A1628",
+        "background_color_b": "#1B3A8A",
+        "background_gradient_angle": {
+          "unit": "deg",
+          "size": 135
+        },
+        "background_gradient_type": "linear",
+        "stretch_section": "section-stretched",
+        "layout": "full_width",
+        "gap": "no",
+        "column_position": "middle",
+        "padding": {
+          "unit": "px",
+          "top": "96",
+          "right": "40",
+          "bottom": "96",
+          "left": "40",
+          "isLinked": false
+        },
+        "padding_tablet": {
+          "unit": "px",
+          "top": "72",
+          "right": "24",
+          "bottom": "72",
+          "left": "24",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "px",
+          "top": "56",
+          "right": "20",
+          "bottom": "56",
+          "left": "20",
+          "isLinked": false
+        },
+        "content_width": {
+          "unit": "px",
+          "size": 1200
+        },
+        "custom_css": "selector{position:relative;overflow:hidden;} selector::before{content:'';position:absolute;width:400px;height:400px;top:-100px;right:-80px;background:radial-gradient(circle,rgba(201,168,76,.12),transparent 70%);border-radius:50%;filter:blur(60px);pointer-events:none;z-index:0;} selector::after{content:'';position:absolute;width:500px;height:500px;bottom:-150px;left:-100px;background:radial-gradient(circle,rgba(27,58,138,.28),transparent 70%);border-radius:50%;filter:blur(60px);pointer-events:none;z-index:0;} selector .elementor-container{position:relative;z-index:1;}"
+      },
+      "elements": [
+        {
+          "id": "guide_col_left",
+          "elType": "column",
+          "settings": {
+            "_column_size": 55,
+            "content_position": "middle",
+            "padding": {
+              "unit": "px",
+              "top": "0",
+              "right": "56",
+              "bottom": "0",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_tablet": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "48",
+              "left": "0",
+              "isLinked": false
+            },
+            "padding_mobile": {
+              "unit": "px",
+              "top": "0",
+              "right": "0",
+              "bottom": "40",
+              "left": "0",
+              "isLinked": false
+            }
+          },
+          "elements": [
+            {
+              "id": "guide_overline",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Your Guide",
+                "header_size": "h6",
+                "align": "left",
+                "title_color": "#C9A84C",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 2.5
+                },
+                "typography_text_transform": "uppercase",
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "16",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "selector .elementor-heading-title{display:flex !important;align-items:center !important;gap:8px !important;} selector .elementor-heading-title::before{content:'';display:inline-block;width:6px;height:6px;border-radius:50%;background:#C9A84C;flex-shrink:0;}"
+              },
+              "elements": []
+            },
+            {
+              "id": "guide_h2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "I’ve fixed this for<br><span style=\"color:#C9A84C\">400+ companies.</span>",
+                "header_size": "h2",
+                "align": "left",
+                "title_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "800",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 44
+                },
+                "typography_font_size_tablet": {
+                  "unit": "px",
+                  "size": 36
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 30
+                },
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.1
+                },
+                "typography_letter_spacing": {
+                  "unit": "em",
+                  "size": -0.03
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "20",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "guide_body",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>I’m Maury. For 20 years I’ve helped B2B teams go from confused to converting — using one repeatable story system called the Greenlight Process.</p>",
+                "text_color": "rgba(255,255,255,0.68)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 16
+                },
+                "typography_font_size_mobile": {
+                  "unit": "px",
+                  "size": 15
+                },
+                "typography_font_weight": "400",
+                "typography_line_height": {
+                  "unit": "em",
+                  "size": 1.7
+                },
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "28",
+                  "left": "0",
+                  "isLinked": false
+                }
+              },
+              "elements": []
+            },
+            {
+              "id": "guide_cred1",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-trophy",
+                  "library": "fa-solid"
+                },
+                "title_text": "400+ Companies Transformed",
+                "description_text": "Cisco, Deloitte, Stanford, Kaiser and more",
+                "title_size": "h4",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "icon_color": "#C9A84C",
+                "title_color": "#ffffff",
+                "description_color": "rgba(255,255,255,0.50)",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Montserrat",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Inter",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "icon_vertical_alignment": "top",
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "selector .elementor-icon-box-wrapper{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-left:3px solid #C9A84C;border-radius:0 12px 12px 0;padding:14px 18px;transition:border-left-color .2s,background .2s;align-items:center;display:flex;} selector .elementor-icon-box-wrapper:hover{border-left-color:#ffffff;background:rgba(255,255,255,.07);} selector .elementor-icon-box-icon{margin-right:14px;margin-bottom:0;min-width:28px;display:flex;align-items:center;justify-content:center;} selector .elementor-icon-box-content .elementor-icon-box-title{margin-bottom:3px;line-height:1.3;} selector .elementor-icon-box-content .elementor-icon-box-description{margin:0;line-height:1.5;}"
+              },
+              "elements": []
+            },
+            {
+              "id": "guide_cred2",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-chart-line",
+                  "library": "fa-solid"
+                },
+                "title_text": "Average 3.2x Pipeline Increase",
+                "description_text": "Within 90 days of deploying the Greenlight Process",
+                "title_size": "h4",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "icon_color": "#C9A84C",
+                "title_color": "#ffffff",
+                "description_color": "rgba(255,255,255,0.50)",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Montserrat",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Inter",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "icon_vertical_alignment": "top",
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "12",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "selector .elementor-icon-box-wrapper{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-left:3px solid #C9A84C;border-radius:0 12px 12px 0;padding:14px 18px;transition:border-left-color .2s,background .2s;align-items:center;display:flex;} selector .elementor-icon-box-wrapper:hover{border-left-color:#ffffff;background:rgba(255,255,255,.07);} selector .elementor-icon-box-icon{margin-right:14px;margin-bottom:0;min-width:28px;display:flex;align-items:center;justify-content:center;} selector .elementor-icon-box-content .elementor-icon-box-title{margin-bottom:3px;line-height:1.3;} selector .elementor-icon-box-content .elementor-icon-box-description{margin:0;line-height:1.5;}"
+              },
+              "elements": []
+            },
+            {
+              "id": "guide_cred3",
+              "elType": "widget",
+              "widgetType": "icon-box",
+              "settings": {
+                "selected_icon": {
+                  "value": "fas fa-graduation-cap",
+                  "library": "fa-solid"
+                },
+                "title_text": "LinkedIn Learning — Top 1%",
+                "description_text": "Over 2M learners across B2B storytelling courses",
+                "title_size": "h4",
+                "icon_size": {
+                  "unit": "px",
+                  "size": 20
+                },
+                "icon_color": "#C9A84C",
+                "title_color": "#ffffff",
+                "description_color": "rgba(255,255,255,0.50)",
+                "title_typography_typography": "custom",
+                "title_typography_font_family": "Montserrat",
+                "title_typography_font_weight": "700",
+                "title_typography_font_size": {
+                  "unit": "px",
+                  "size": 13
+                },
+                "description_typography_typography": "custom",
+                "description_typography_font_family": "Inter",
+                "description_typography_font_size": {
+                  "unit": "px",
+                  "size": 12
+                },
+                "icon_vertical_alignment": "top",
+                "_padding": {
+                  "unit": "px",
+                  "top": "0",
+                  "right": "0",
+                  "bottom": "32",
+                  "left": "0",
+                  "isLinked": false
+                },
+                "custom_css": "selector .elementor-icon-box-wrapper{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-left:3px solid #C9A84C;border-radius:0 12px 12px 0;padding:14px 18px;transition:border-left-color .2s,background .2s;align-items:center;display:flex;} selector .elementor-icon-box-wrapper:hover{border-left-color:#ffffff;background:rgba(255,255,255,.07);} selector .elementor-icon-box-icon{margin-right:14px;margin-bottom:0;min-width:28px;display:flex;align-items:center;justify-content:center;} selector .elementor-icon-box-content .elementor-icon-box-title{margin-bottom:3px;line-height:1.3;} selector .elementor-icon-box-content .elementor-icon-box-description{margin:0;line-height:1.5;}"
+              },
+              "elements": []
+            },
+            {
+              "id": "guide_btn",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Book a Strategy Call →",
+                "link": {
+                  "url": "/book/",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "align": "left",
+                "background_color": "#C0392B",
+                "button_text_color": "#ffffff",
+                "border_radius": {
+                  "unit": "px",
+                  "top": "50",
+                  "right": "50",
+                  "bottom": "50",
+                  "left": "50",
+                  "isLinked": true
+                },
+                "text_padding": {
+                  "unit": "px",
+                  "top": "14",
+                  "right": "28",
+                  "bottom": "14",
+                  "left": "28",
+                  "isLinked": false
+                },
+                "typography_typography": "custom",
+                "typography_font_family": "Montserrat",
+                "typography_font_weight": "700",
+                "typography_font_size": {
+                  "unit": "px",
+                  "size": 11
+                },
+                "typography_letter_spacing": {
+                  "unit": "px",
+                  "size": 1.5
+                },
+                "typography_text_transform": "uppercase",
+                "custom_css": "selector .elementor-button{box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px,0 0 28px rgba(192,57,43,.28);transition:transform .25s cubic-bezier(.19,1,.22,1),box-shadow .25s,background-color .2s;position:relative;overflow:hidden;white-space:nowrap;} selector .elementor-button:hover{background-color:#a83225 !important;transform:translateY(-5px);box-shadow:rgba(0,0,0,0) 0 96px 28px,rgba(0,0,0,.02) 0 62px 26px,rgba(0,0,0,.06) 0 36px 22px,rgba(0,0,0,.12) 0 16px 16px,rgba(0,0,0,.14) 0 4px 10px,0 0 40px rgba(192,57,43,.45);} selector .elementor-button::after{content:'';position:absolute;top:0;left:-100%;width:60%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);transition:left .45s ease;pointer-events:none;} selector .elementor-button:hover::after{left:160%;}"
+              },
+              "elements": []
+            }
+          ]
+        },
+        {
+          "id": "guide_col_right",
+          "elType": "column",
+          "settings": {
+            "_column_size": 45,
+            "content_position": "middle"
+          },
+          "elements": [
+            {
+              "id": "guide_image",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "url": "",
+                  "id": "",
+                  "alt": "Maury Photo"
+                },
+                "image_size": "full",
+                "align": "center",
+                "caption_source": "none",
+                "custom_css": "selector{position:relative;} selector .elementor-image-container{border-radius:16px;border:1px solid rgba(201,168,76,.18);box-shadow:rgba(0,0,0,0) 0 84px 24px,rgba(0,0,0,.01) 0 54px 22px,rgba(0,0,0,.04) 0 30px 18px,rgba(0,0,0,.08) 0 13px 13px,rgba(0,0,0,.09) 0 3px 7px;overflow:hidden;position:relative;background:linear-gradient(135deg,rgba(27,58,138,.25),rgba(10,22,40,.60));min-height:320px;display:flex;align-items:center;justify-content:center;} selector .elementor-image-container img{border-radius:16px;display:block;width:100%;} selector .elementor-image-container::before{content:'';position:absolute;top:0;left:0;bottom:0;width:3px;background:linear-gradient(180deg,#C9A84C,#C0392B);z-index:1;pointer-events:none;border-radius:16px 0 0 16px;}"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
